@@ -1,0 +1,57 @@
+.menuWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-top: 20px;
+    z-index: 101;
+}
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+h3 {
+    font-family: 'Ecam-Regular';
+    font-size: 22px;
+    text-align: end;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list {
+    list-style: none;
+}
+li {
+    font-size: 18px;
+    text-align: end;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+li:hover {
+    font-weight: bolder;
+}
+
+@media (max-width: 1140px) {
+    .menuWrapper {
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80vw;
+        height: 15vh;
+        
+    }
+    h3 {
+        font-family: 'Ecam-Regular';
+        font-size: 40px;
+    }
+    .menuContainer {
+      margin-top: 6vh;
+    }
+}
+

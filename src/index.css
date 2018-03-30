@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Ecam-Black';
+  src: url('./font/Ecam-Black.otf') format('opentype');  
+}
+
+@font-face {
+  font-family: 'Ecam-Bold';
+  src: url('./font/Ecam-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Ecam-ExtraBold';
+  src: url('./font/Ecam-ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Ecam-ExtraLight';
+  src: url('./font/Ecam-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Ecam-Regular';
+  src: url('./font/Ecam-Regular.otf') format('opentype');   
+}
+
+@font-face {
+  font-family: 'Ecam-Light';
+  src: url('./font/Ecam-Light.otf') format('opentype'),   
+}
+
+@font-face {
+  font-family: 'Ecam-Thin';
+  src: url('./font/Ecam-Thin.otf') format('opentype'),   
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ecam-Regular'
+}
