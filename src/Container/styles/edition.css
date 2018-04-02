@@ -1,0 +1,23 @@
+.metaContainer {
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 15vh;
+}
+
+.titleContainer {
+    transform: rotate(180deg);
+    text-orientation: sideways;
+    writing-mode: vertical-rl;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+
+.line {
+    width: 2px;
+    height: 30px;
+    background-color: black;
+    align-self: flex-end;
+    position: fixed;
+}
+

@@ -1,7 +1,10 @@
 @media (max-width: 1140px) {
 
     .wrapper {
+        position: absolute;        
         margin-top: 50px;
+        z-index: 101;
+        overflow: scroll;   
     }
     .imageBottom,
     .image {
@@ -11,7 +14,10 @@
     }
     .imageBottom:hover, 
     .image:hover {
-        opacity: 1;
+        opacity: 0.9;
+    }
+    ::-webkit-scrollbar { 
+        display: none; 
     }
 
 }

@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
 import './App.css';
-import TitleBackground from './Components/TitleBackground';
-import ImagesScroll from './Components/ImagesScroll';
-import Menu from './Components/Menu';
+import Edition from './Container/Edition';
+import Home from './Container/Home';
+import Menu from './Container/Menu';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Route from 'react-router-dom/Route'
 
 
 class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div className="Content">
-          <TitleBackground />
-          <ImagesScroll />
+      <Router>
+        <div className="App">
+            <div className="Content">
+              <Route path="/" exact component={Home} />
+              <Route path="/edition" exact component={Edition} />
+            </div>
+            <Menu className="menu"/>
         </div>
-        <Menu />
-      </div>
+      </Router>
     );
   }
 }

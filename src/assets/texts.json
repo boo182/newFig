@@ -1,0 +1,19 @@
+{
+    "edition_fig": "Lorem ipsum dolor sit amet,\n consectetur adipiscing elit. Ut arcu felis,\n\nelementum eget maximus at, suscipit vel orci. Nulla urna metus, placerat sed mauris tincidunt, maximus porta urna. Praesent turpis enim, dignissim sit amet dictum sit amet, sagittis a ante. Nullam felis augue, interdum et ornare ultrices, elementum ut nisi. Aliquam ligula urna, volutpat eget risus in, posuere interdum ante. Nullam sed risus sed ex pellentesque vestibulum vel et sem. Aenean id efficitur mi. Suspendisse vel dictum dui. Donec eu odio id velit cursus commodo. Phasellus finibus ipsum imperdiet ultrices tristique. Suspendisse felis justo, condimentum a ullamcorper at, laoreet in dolor. Curabitur vehicula justo nec leo pulvinar, tincidunt volutpat orci consectetur. Proin interdum maximus metus, eget laoreet dolor luctus id. Fusce et quam eu metus aliquet pulvinar. Integer quis velit et diam condimentum consectetur. Quisque est massa, mattis sed tempus ut, tincidunt pharetra arcu. Mauris sed tincidunt ante, at sollicitudin nunc. Vestibulum sed nunc at dui elementum posuere. Integer nibh nisi, congue in eros a, molestie egestas libero. Nulla facilisi. Morbi at tristique sapien, vitae blandit erat. Pellentesque suscipit elit at tellus imperdiet, eu dapibus arcu sodales. Morbi pharetra aliquam risus, quis feugiat risus maximus vel",
+    "contact": {
+        "city": "Paris/Montreuil",
+        "joinUs": "Nous joindre:",
+        "fanny": {
+            "name": "Fanny Myon",
+            "phone": "+33 (0)6 79 76 71 12"
+        },
+        "hugo": {
+            "name": "Hugo Chevassus",
+            "phone": "+33 (0)6 18 29 40 29"
+        },
+        "email": "contact@revue-fig.com",
+        "followUs": "Nous suivre",
+        "facebook": "facebook"
+    }   
+
+}
