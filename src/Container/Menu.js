@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import './styles/menu.css';
 import { NavLink, Link } from 'react-router-dom';
 import ContactList from '../Components/ContactList';
+const activeStyle = {
+    fontFamily: 'Ecam-extraBold',
+};
 
 export default class Menu extends Component {
     state = {
@@ -25,13 +28,18 @@ export default class Menu extends Component {
         {this.state.showList && <div className="options">
                 <ul className="list">
                     <li>
-                        <NavLink to="/edition" activeStyle={{ textDecoration: 'none', color: 'black' }}>édition fig</NavLink>
+                        <NavLink to="/edition"activeStyle={activeStyle}>édition fig</NavLink>
                     </li>
                     <li>numéros</li>
                     <li>boutique</li>
                     <li>librairies</li>
                     <li>évènement</li>
-                    <li onClick={() => this.setState({ showContact: !showContact })}>contact</li>                
+                    <li
+                      onClick={() => this.setState({ showContact: !showContact })}
+                      style={showContact ? activeStyle : null}
+                    >
+                        contact
+                    </li>                
                 </ul>
             </div>}
         </div>
