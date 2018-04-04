@@ -5,9 +5,9 @@ import './styles/editionText.css';
 export default () => {
   return (
       <div className="editionText">
-        <div className="editionTitle">Revue indépendante de critique architecturale</div>
+        <div className="editionTitle">{data.pages.edition.pageSubtitle}</div>
         <div className="editionCorpus">
-            <p>{data.edition_fig}</p>
+            <p>{data.pages.edition.edition_fig}</p>
         </div>
       </div>
   )

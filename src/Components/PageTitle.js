@@ -6,8 +6,8 @@ export default class PageTitle extends Component {
     return (
         <div className="editionTitleWrapper">
             <div className="titleContainer">
-                    <span>edi:tion fig.</span>
-                    {/* <div className="line" /> */}
+                    <span>{this.props.title}</span>
+                    <div className="line" />
             </div>
         </div>
     )
