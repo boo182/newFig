@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import PageTitle from '../Components/PageTitle';
 import data from '../assets/texts';
+import './styles/collection.css';
 
 export default class Collection extends Component {
     state = {
@@ -9,10 +11,10 @@ export default class Collection extends Component {
         
     }
   render() {
-      console.log(this.state);
+      console.log(!!this.state.issue.number);
     return (
-      <div>
-        Collection
+      <div className="collectionContainer">
+            <PageTitle title={this.state.issue.pageTitle} number={this.state.issue.number}/>          
       </div>
     )
   }

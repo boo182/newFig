@@ -31,7 +31,7 @@ export default class Menu extends Component {
                         <NavLink to="/edition"activeStyle={activeStyle}>édition fig</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/collection/hypotitose"activeStyle={activeStyle}>numéros</NavLink>
+                        <NavLink to="/collection/analepse"activeStyle={activeStyle}>numéros</NavLink>
                     </li>
                     <li>boutique</li>
                     <li>librairies</li>

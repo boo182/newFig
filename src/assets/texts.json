@@ -21,7 +21,8 @@
             "pageSubtitle": "Revue indépendante de critique architecturale"
         },
         "analepse": {
-            "number": 0,
+            "pageTitle": "analepse",
+            "number": "0",
             "definition": "Une analepse (du grec ancien analêpsis) est une figure de style qui consiste à effectuer un retour sur des évènements antérieurs au moment de la narration. Comme un retour en arrière, elle permet l’éclaircissement d’une situation ou un saut temporel dans la narration.",
             "presentation": "De la Faculdade de Arquitectura d’Alvaro Siza à Porto ou du projet de Vincent Mangeat du futur pont habité de Zaehringen à Fribourg, en passant par la reconversion de la Briqueterie de Philippe Prost à Paris, ce premier numéro conjugue le passé pour s’approprier le futur.",
             "format": "190x255 mm",
@@ -38,6 +39,10 @@
             "images": [
 
             ]
+        },
+        "prosopee": {
+            "pageTitle": "prosopee",
+            "number": "1"
         }
     }  
 

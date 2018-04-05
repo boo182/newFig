@@ -1,24 +1,27 @@
-.titleContainer {
+.issueContainer {
     transform: rotate(180deg);
     text-orientation: sideways;
     writing-mode: vertical-rl;
-    font-size: 0.8em;
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
     font-weight: bolder;
+    font-size: 0.8em;
+    margin-right: 80px;
 }
-span {
-    padding-left: 5px;
-}
-
-.line {
-    width: 2px;
+.issueLine {
+    width: 3px;
     height: 30px;
     background-color: black;
-    align-self: flex-end;
-    position: fixed;
 }
-.editionTYitleWrapper {
-    margin-top: 15vh;
+.issueTitle {
+    margin-left: 5px;
+}
+span {
+    font-size: 0.8em;
+}
+
+.editionTitleWrapper {  
+
 }
 
