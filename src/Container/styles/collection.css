@@ -1,5 +1,11 @@
 .collectionContainer {
     display: flex;
-    margin-left: 5vw;
-    margin-top: 15vh;
+    background-color: aquamarine;
+    height: 100vh;
 }
+
+.pageTitle {
+    margin-top: 18vh;
+    margin-left: 3vw;
+}
+
