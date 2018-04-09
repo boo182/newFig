@@ -1,5 +1,6 @@
 .collectionContainer {
     display: flex;
+    flex-direction: row;
     background-color: aquamarine;
     height: 100vh;
 }

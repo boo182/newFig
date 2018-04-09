@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PageTitle from '../Components/PageTitle';
 import data from '../assets/texts';
-import Carousel from '../Components/Carousel';
+import IssueCarousel from '../Components/IssueCarousel';
 import './styles/collection.css';
 
 export default class Collection extends Component {
@@ -15,7 +15,7 @@ export default class Collection extends Component {
           <div className="pageTitle">
             <PageTitle title={this.state.issue.pageTitle} number={this.state.issue.number}/>
           </div>
-            <Carousel images={this.state.issue.images}/>      
+            <IssueCarousel issue={this.state.issue.pageTitle}/>      
       </div>
     )
   }
