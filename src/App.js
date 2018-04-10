@@ -13,12 +13,12 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+            <Menu className="menu"/>
             <div className="Content">
               <Route path="/" exact component={Home} />
               <Route path="/edition" exact component={Edition} />
               <Route path="/collection/:issue" component={Collection} />
             </div>
-            <Menu className="menu"/>
         </div>
       </Router>
     );

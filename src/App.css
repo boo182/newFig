@@ -2,6 +2,7 @@
 
 .App {
   overflow: hidden;
+
 }
 .Content {
   font-size: 100px;
@@ -10,26 +11,13 @@
 
 
 
-
-@supports (display: grid) {
-  @media (max-width: 1139px) {
-    .App {
-      margin-left: 8vh;
-      display: grid;
-      grid-template-columns: 10vw;
-      grid-template-rows: 15vh 85vh;
-      grid-template-areas:
-           "menu"
-           "content"
-    }
-    .Content {
-      grid-area: content;
-    }
-    
-    .Menu {
-      grid-area: menu;
-    }
+@media (max-width: 1140px) {
+  .Content {
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
+}
+@supports (display: grid) {
   @media (min-width: 1140px) {
       .App {
           display: grid;

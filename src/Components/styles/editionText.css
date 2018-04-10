@@ -1,14 +1,26 @@
 
 .editionText {
-    font-size: 0.17em;
-    width:600px;
+    font-size: 0.30em;
 }
 .editionTitle {
     margin-bottom: 70px;
     font-size: 1.8em;
     font-weight: bolder;
 }
-.editionCorpus {
-    width: 400px;
-    white-space: pre-line;
+
+
+@media (min-width: 1140px) {
+    .editionText {    
+        font-size: 0.17em;
+        width:600px;
+    }
+    .editionTitle {
+        margin-bottom: 70px;
+        font-size: 1.8em;
+        font-weight: bolder;
+    }
+    .editionCorpus {
+        width: 400px;
+        white-space: pre-line;
+    }
 }

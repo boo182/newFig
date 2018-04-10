@@ -10,11 +10,14 @@ export default class Edition extends Component {
         texts: data.pages[pathName(this.props.match.path)],
      }
   render() {
-      console.log(pathName(this.props.match.path));
     return (
         <div className="metaContainer">
-            <PageTitle title={this.state.texts.pageTitle} />
-            <EditionText subtitle={this.state.texts.subtitle} text={this.state.texts.edition_fig} />
+            <div className="pageTitleWrapper">
+                <PageTitle title={this.state.texts.pageTitle} />
+            </div>
+            <div className="edtionTextContainer">
+                <EditionText subtitle={this.state.texts.subtitle} text={this.state.texts.edition_fig} />
+            </div>
         </div>
     )
   }

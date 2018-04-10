@@ -60,8 +60,10 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 80vw;
         height: 15vh;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
         background-color: white;
         z-index: 101;        
     }
