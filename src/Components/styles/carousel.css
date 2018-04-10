@@ -1,11 +1,8 @@
 .carouselContainer {
-    align-self: center;
-    margin-left: 15vw;
-    overflow: hidden;
+    margin-top: 8vh;
+    margin-right: 15px;
 }
-
 .carouselPictures {
-    width: 60%;
-    margin-right: 20px;
+    width: 10%;
 }
 

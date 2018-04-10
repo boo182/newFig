@@ -1,43 +1,18 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './styles/carousel.css';
-import Slider from 'react-animated-slider';
-import 'react-animated-slider/build/horizontal.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 // pictures Analepse
 import zero from '../assets/images/analepse/n°0-.jpg'
 import one from '../assets/images/analepse/n°0--1.jpg'
 import two from '../assets/images/analepse/n°0--2.jpg'
 import three from '../assets/images/analepse/n°0--3.jpg'
 import four from '../assets/images/analepse/n°0--4.jpg'
+import { Carousel } from 'react-responsive-carousel';
 
 
 export default class IssueCarousel extends Component {
-  state = {
-    counter: 0,
-  }
 
-  nextImage = (list) => {
-    const { counter } = this.state;    
-    if( counter === list.length - 1 ) {
-      this.setState({ counter: 0});
-    } else {
-      this.setState({ counter: counter + 1});      
-    }
-  }
-
-  // renderImage = (list) => {
-  //   const { counter } = this.state;
-  //   return <img src={list[counter]} alt={list[counter]} className="carouselPictures"/>;
-  // }
-
-  // renderNextImage = (list) => {
-  //   const { counter } = this.state;
-  //   if( counter === list.length - 1 ) {
-  //     return <img src={list[0]} alt={list[0]} className="carouselPictures"/>;
-  //   } else {
-  //     return <img src={list[counter + 1]} alt={list[counter + 1]} className="carouselPictures"/>;     
-  //   }
-  // }
 
   getImages = () => {
     const { issue } = this.props;
@@ -47,14 +22,20 @@ export default class IssueCarousel extends Component {
   }
   render() {
    const { issue } = this.props;
-  
+    const carouselOptions = {
+      showStatus: false,
+      showIndicators: false,
+      showThumbs: false,
+      infiniteLoop: true,
+      useKeyboardArrows: true,
+      transitionTime: 1000,
+    }
+
     return (
-        <Slider>
+        <Carousel showArrows={true} className="carouselContainer" {...carouselOptions}>
           {this.getImages().map((article, index) =>
-          <div key={index} className="carouselContainer">
-            <img src={article} className="carouselPictures"/>
-          </div>)}
-        </Slider>
+            <img src={article} className="carouselPictures"/>)}
+        </Carousel>
     )
   }
 }
