@@ -5,22 +5,41 @@ import Home from './Container/Home';
 import Menu from './Container/Menu';
 import Collection from './Container/Collection'
 import { BrowserRouter as Router } from 'react-router-dom';
+import createBrowserHistory from 'history/createBrowserHistory'
 import Route from 'react-router-dom/Route'
 
 
 class App extends Component {
+  state = {
+    actualPage: '',
+  }
+  
+   getActualPage = (page) => this.setState({ actualPage: page });
+
   render() {
     return (
-      <Router>
-        <div className="App">
-            <Menu className="menu"/>
-            <div className="Content">
-              <Route path="/" exact component={Home} />
-              <Route path="/edition" exact component={Edition} />
-              <Route path="/collection/:issue" component={Collection} />
-            </div>
-        </div>
-      </Router>
+        <Router>
+              <div className="App">
+                  <Menu className="menu" actualPage={this.state.actualPage}/>
+                  <div className="Content">
+                    <Route path="/" exact
+                      render={(params) =>
+                        <Home params={params} getActualPage={this.getActualPage} />
+                    }>
+                    </Route>
+                    <Route path="/edition" exact
+                      render={(params) =>
+                        <Edition params={params} getActualPage={this.getActualPage} />
+                    }>
+                      </Route>
+                    <Route path="/collection/:issue"
+                      render={(params) =>
+                        <Collection params={params} getActualPage={this.getActualPage} />
+                    }>
+                    </Route>
+                  </div>
+              </div>
+          </Router>
     );
   }
 }

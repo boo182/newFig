@@ -1,9 +1,11 @@
 .menuWrapper {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding-right: 50px;
     padding-top: 20px;
     z-index: 101;
+    padding-bottom: 9vh;
 }
 button {
     padding: 0;
@@ -51,6 +53,9 @@ li:clicked {
 a {
     text-decoration: none;
     color: black;
+}
+.orderIssue {
+    padding-bottom: 10vh;
 }
 
 

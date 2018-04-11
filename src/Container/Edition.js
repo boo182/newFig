@@ -6,10 +6,16 @@ import data from '../assets/texts';
 import { pathName } from '../utils/textUtils';
 
 export default class Edition extends Component {
-     state = {
-        texts: data.pages[pathName(this.props.match.path)],
-     }
-  render() {
+state = {
+    texts: data.pages[pathName(this.props.params.match.path)],
+};
+
+componentWillMount() {
+    this.props.getActualPage('edition');
+  }
+
+render() {
+      
     return (
         <div className="metaContainer">
             <div className="pageTitleWrapper">

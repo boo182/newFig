@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom';
 import './styles/carousel.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 // pictures Analepse
-import zero from '../assets/images/analepse/n°0-.jpg'
-import one from '../assets/images/analepse/n°0--1.jpg'
-import two from '../assets/images/analepse/n°0--2.jpg'
-import three from '../assets/images/analepse/n°0--3.jpg'
-import four from '../assets/images/analepse/n°0--4.jpg'
 import { Carousel } from 'react-responsive-carousel';
+import { analepse } from '../assets/images/images';
+import { hypotytose } from '../assets/images/images';
+import { prosopee } from '../assets/images/images';
+
 
 
 export default class IssueCarousel extends Component {
@@ -17,7 +16,13 @@ export default class IssueCarousel extends Component {
   getImages = () => {
     const { issue } = this.props;
     if(issue === 'analepse') {
-      return [zero, one, two, three, four];
+      return analepse;
+    }
+    if(issue === 'hypotytose') {
+      return hypotytose;
+    }
+    if(issue === 'prosopee') {
+      return prosopee;
     }
   }
   render() {

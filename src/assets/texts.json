@@ -35,18 +35,15 @@
             "summary": [
                 "récit NUNES, Antoine-Frédéric L'architecture fictionSur le projet du pont de Zaehringen, Vincent Mangeat, Fribourg",
                 "récit BARNAY, Oscar Les traces Sur le projet de la Faculdade de Arquitectura, Alvaro Siza, Porto"
-            ],
-            "images": [
-                "../assets/images/analepse/n°0-.jpg",                
-                "../assets/images/analepse/n°0--1.jpg",
-                "../assets/images/analepse/n°0--2.jpg",
-                "../assets/images/analepse/n°0--3.jpg",
-                "../assets/images/analepse/n°O--4.jpg"
             ]
         },
         "prosopee": {
-            "pageTitle": "prosopee",
+            "pageTitle": "prosopée",
             "number": "1"
+        },
+        "hypotytose": {
+            "pageTitle": "hypotytose",
+            "number": "2"
         }
     }  
 

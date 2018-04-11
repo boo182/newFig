@@ -6,10 +6,12 @@ import './styles/collection.css';
 
 export default class Collection extends Component {
     state = {
-        issue: data.pages[this.props.match.params.issue],
+        issue: data.pages[this.props.params.match.params.issue],
+    }
+    componentWillMount() {
+      this.props.getActualPage('collection');
     }
   render() {
-    console.log(this.state.issue);
     return (
       <div className="collectionContainer">
           <div className="pageTitle">
