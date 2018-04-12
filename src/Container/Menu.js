@@ -3,6 +3,7 @@ import './styles/menu.css';
 import { NavLink, Link } from 'react-router-dom';
 import ContactList from '../Components/ContactList';
 import OrderIssue from '../Components/OrderIssue';
+import * as Rx from 'rxjs';
 
 const activeStyle = {
     fontFamily: 'Ecam-extraBold',
@@ -13,7 +14,13 @@ export default class Menu extends Component {
         showList: false,
         showContact: false,
         showOrderIssue: false,
+        displayOrderDiv: true,
     }
+
+      componentWillMount () {
+        this.resizeEvent = Rx.Observable.fromEvent(window, 'resize')
+            .subscribe(() => this.setState({ displayOrderDiv: window.innerWidth >= 1140 || false }))
+      }
 
 
   render() {
@@ -21,7 +28,7 @@ export default class Menu extends Component {
     const {showList, showContact, showOrderIssue} = this.state;
     return (
       <div className="menuWrapper">
-      <div>
+      <div className="menuSubWrapper">
         <h3 className="menuHeader">numéro 3</h3>
         <div className="menuContainer">
             <div className="buttonContainer">
@@ -58,7 +65,9 @@ export default class Menu extends Component {
         </div>
         {(showContact && showList) && <ContactList />}
         </div>
-         {this.props.actualPage === 'collection' && <OrderIssue className="orderIssue" />}
+        {this.state.displayOrderDiv && <div className="orderIssue">
+            {this.props.actualPage === 'collection' && <OrderIssue  />}
+        </div>}
       </div>
     )
   }

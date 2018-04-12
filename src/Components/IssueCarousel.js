@@ -25,6 +25,7 @@ export default class IssueCarousel extends Component {
       return prosopee;
     }
   }
+  
   render() {
    const { issue } = this.props;
     const carouselOptions = {

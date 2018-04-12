@@ -2,40 +2,30 @@
   .fig,
   .revue {
     font-family: 'Ecam-Bold';
-    font-size: 4em;
-    line-height: 0.4;
     z-index: 5;
-  }
+    }
 
-  .titleWrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: fixed;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1;
+  .backgroundTitleWrapper {
     transform: rotate(90deg);
+    position: fixed;
+    z-index: 1;
     overflow: hidden;
+    top: 17vh;
   }
-
   .subtitle {
     display: none;
   }
-  .imageLine {
-    overflow: hidden;
-  }
+
 }
 @media (min-width: 1140px) {
   .fig,
   .revue {
+    position: relative;
     font-family: 'Ecam-Bold';
-    font-size: 6.6em;
     line-height: 0.4;
   }
   .fig {
-    line-height: 1.2;  
+    line-height: 1; 
   }
   .bottom-title {
     display: flex;
@@ -43,13 +33,16 @@
   }
   .subtitle {
     font-family: 'Ecam-Bold';
-    font-size: 0.3em;
+    font-size: 2em;
     align-self: center;
     padding-left: 65px;
     padding-top: 200px;
   }
 
-  .titleWrapper {
+  .backgroundTitleWrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       top: 0px;
       position: fixed;
       overflow: hidden;

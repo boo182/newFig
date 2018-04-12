@@ -13,6 +13,9 @@
     background-color: black;
     align-self: flex-end;
 }
+.issueTitle {
+    white-space: nowrap;
+}
 
 @media (min-width: 1140px) {
     .issueContainer {

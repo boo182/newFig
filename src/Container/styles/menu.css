@@ -54,13 +54,12 @@ a {
     text-decoration: none;
     color: black;
 }
-.orderIssue {
-    padding-bottom: 10vh;
-}
 
 
 @media (max-width: 1140px) {
-    .menuWrapper {
+ 
+    .menuSubWrapper {
+        top: 0px;
         position: fixed;
         display: flex;
         flex-direction: row;
@@ -83,6 +82,9 @@ a {
         font-weight: 'bolder';
         text-decoration: none;
         color: black;
+    }
+    .orderIssue {
+        display: none;
     }
 }
 

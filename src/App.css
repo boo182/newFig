@@ -13,8 +13,9 @@
 
 @media (max-width: 1140px) {
   .Content {
-    margin-left: 5vw;
-    margin-right: 5vw;
+  margin-left: 5vw;   
+  margin-right: 5vw;    
+   
   }
 }
 @supports (display: grid) {

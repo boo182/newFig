@@ -1,8 +1,9 @@
 @media (max-width: 1140px) {
 
-    .wrapper {
-        position: absolute;        
-        margin-top: 50px;
+    .imageScrollWrapper {
+        position: absolute;   
+        margin-top: 35vh;
+        margin-right: 10vh;
         z-index: 101;
         overflow: scroll;   
     }
@@ -19,11 +20,13 @@
     ::-webkit-scrollbar { 
         display: none; 
     }
+    .imageBlock {  
+    }
 
 }
 @media (min-width: 1140px) {
 
-    .wrapper {
+    .imageScrollWrapper {
         position: relative;
         margin-left: 20px;
         overflow-y: scroll;

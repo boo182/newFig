@@ -1,32 +1,65 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import './styles/imagesScroll.css';
-import url from '../assets/images/édition-fig.-4.jpg';
-import url2 from '../assets/images/édition-fig.-6-lightbox.jpg';
+
+import { Carousel } from 'react-responsive-carousel';
+import { analepse } from '../assets/images/images';
+import { hypotytose } from '../assets/images/images';
+import { prosopee } from '../assets/images/images';
 
 export default class ImagesScroll extends Component {
+    getImages = () => {
+        const { pictures } = this.props;
+
+        if(pictures === 'analepse') {
+          return analepse;
+        }
+        if(pictures === 'hypotytose') {
+          return hypotytose;
+        }
+        if(pictures === 'prosopee') {
+          return prosopee;
+        }
+        if(pictures === 'home') {
+            return analepse.concat(hypotytose, prosopee);
+        }
+      }
+  imageBlock = (images) => {
+    let array = [];
+    let subArray = [];
+    images.forEach((item, index) => {
+        subArray.push(item);
+        if(index !== 0 && (index + 1) % 3 === 0) {
+            array.push(subArray);
+            subArray = [];
+            console.log(array);
+        }
+        if (index === images.length - 1) {
+            array.push(subArray);
+        }
+    });
+     return array;
+  }    
   render() {
-      const images = [url, url, url, url, url];
-      console.log(images);
+      const { pictures } = this.props;
+      const images = this.imageBlock(this.getImages());
+   
     return (
-      <div className="wrapper" style={{ width: this.props.width }}>
-        <div className="imageBolck">
-            <div className="imageLine">
-                <img className="image" src={images[0]} />
-                <img className="image" src={url2} />
+      <div className="imageScrollWrapper" style={{ width: this.props.width }}>
+
+        {images.map(item =>
+        <Fragment>
+            <div className="imageBolck">
+                <div className="imageLine">
+                    <img className="image" src={item[0]} />
+                    <img className="image" src={item[1]} />
+                </div>
             </div>
-        </div>
-        <div className="singleImage">
-            <img className="imageBottom" src={images[0]} />
-        </div>
-        <div className="imageBolck">
-            <div className="imageLine">
-                <img className="image" src={images[0]} />
-                <img className="image" src={url2} />
+            <div className="singleImage">
+                <img className="imageBottom" src={item[2]} />
             </div>
-        </div>
-        <div className="singleImage">
-            <img className="image" src={images[0]} />
-        </div>
+        </Fragment>
+    )}
+       
 
       </div>
     )
