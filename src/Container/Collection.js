@@ -3,6 +3,7 @@ import PageTitle from '../Components/PageTitle';
 import data from '../assets/texts';
 import IssueCarousel from '../Components/IssueCarousel';
 import ImagesScroll from '../Components/ImagesScroll';
+import ImageCarousel from '../Components/ImageCarousel';
 import './styles/collection.css';
 import * as Rx from 'rxjs';
 
@@ -18,18 +19,20 @@ export default class Collection extends Component {
     }
   render() {
     const {displayCarousel, issue} = this.state;
-    console.log(this.state.issue.pageTitle);
+
     return (
       <div className="collectionContainer">
           <div className="pageTitle">
             <PageTitle title={issue.pageTitle} number={issue.number}/>
           </div>
-            {displayCarousel
+            {/* {displayCarousel
             ? <IssueCarousel issue={issue.pageTitle}/>
             :<div className="carouselScroll"> 
               <ImagesScroll pictures={issue.pageTitle}/>
             </div>
-            }
+            } */}
+              <ImageCarousel />
+            
 
       </div>
     )

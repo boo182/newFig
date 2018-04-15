@@ -21,7 +21,7 @@ class App extends Component {
     return (
         <Router>
               <div className="App">
-                <TitleBackground display={this.state.actualPage === 'home'}/>              
+                {/* <TitleBackground display={this.state.actualPage === 'home'}/>               */}
                   <Menu className="menu" actualPage={this.state.actualPage}/>
                   <div className="Content">
                     <Route path="/" exact

@@ -1,15 +1,13 @@
 .collectionContainer {
-    display: flex;
-    flex-direction: row;
     height: 100vh;
+    position: fixed;
 }
 
 .pageTitle {
     margin-top: 18vh;
     margin-left: 3vw;
+    z-index: 2;
 }
 
-.carouselScroll {
-    margin-top: 20vh;
-}
+
 

@@ -10,11 +10,11 @@ import hypotytose1 from './hypotytose/n°2--1.jpg';
 import hypotytose2 from './hypotytose/n°2--2.jpg';
 import hypotytose3 from './hypotytose/n°2--3.jpg';
 // Prosopée
-import prosopee0 from './prosopee/n°1--1.jpg';
-import prosopee1 from './prosopee/n°1--2.jpg';
-import prosopee2 from './prosopee/n°1--3.jpg';
-import prosopee3 from './prosopee/n°1--4.jpg';
-import prosopee4 from './prosopee/n°1-5.jpg';
+import prosopopee0 from './prosopopee/n°1--1.jpg';
+import prosopopee1 from './prosopopee/n°1--2.jpg';
+import prosopopee2 from './prosopopee/n°1--3.jpg';
+import prosopopee3 from './prosopopee/n°1--4.jpg';
+import prosopopee4 from './prosopopee/n°1-5.jpg';
 
 
 export const analepse = [
@@ -32,10 +32,10 @@ export const hypotytose = [
     hypotytose3,
 ];
 
-export const prosopee = [
-    prosopee0,
-    prosopee1,
-    prosopee2,
-    prosopee3,
-    prosopee4
+export const prosopopee = [
+    prosopopee0,
+    prosopopee1,
+    prosopopee2,
+    prosopopee3,
+    prosopopee4
 ];

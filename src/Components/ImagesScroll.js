@@ -4,7 +4,7 @@ import './styles/imagesScroll.css';
 import { Carousel } from 'react-responsive-carousel';
 import { analepse } from '../assets/images/images';
 import { hypotytose } from '../assets/images/images';
-import { prosopee } from '../assets/images/images';
+import { prosopopee } from '../assets/images/images';
 
 export default class ImagesScroll extends Component {
     getImages = () => {
@@ -16,11 +16,11 @@ export default class ImagesScroll extends Component {
         if(pictures === 'hypotytose') {
           return hypotytose;
         }
-        if(pictures === 'prosopee') {
-          return prosopee;
+        if(pictures === 'prosopopee') {
+          return prosopopee;
         }
         if(pictures === 'home') {
-            return analepse.concat(hypotytose, prosopee);
+            return analepse.concat(hypotytose, prosopopee);
         }
       }
   imageBlock = (images) => {

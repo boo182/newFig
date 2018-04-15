@@ -6,7 +6,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import { analepse } from '../assets/images/images';
 import { hypotytose } from '../assets/images/images';
-import { prosopee } from '../assets/images/images';
+import { prosopopee } from '../assets/images/images';
 
 
 
@@ -21,8 +21,8 @@ export default class IssueCarousel extends Component {
     if(issue === 'hypotytose') {
       return hypotytose;
     }
-    if(issue === 'prosopee') {
-      return prosopee;
+    if(issue === 'prosopopee') {
+      return prosopopee;
     }
   }
   

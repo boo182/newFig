@@ -1,0 +1,35 @@
+.detailsWrapper {
+    margin: 0px;
+    padding: 0px;
+    width: 65vw;
+
+}
+.columnsContainer {
+    display: flex;
+    justify-content: flex-start;
+    max-height: 75vh;
+}
+.description {
+    font-size: 18px;
+    width: 30%;
+    margin-right: 5vw;
+}
+.line {
+    margin: 0px;
+}
+.summary {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.summaryItem {
+    white-space: pre-line;
+    width: 15vw;
+    padding-right: 5vw;
+    margin-bottom: 20px;;
+}
+
+
