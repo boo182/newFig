@@ -1,6 +1,6 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import './styles/menu.css';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import ContactList from '../Components/ContactList';
 import OrderIssue from '../Components/OrderIssue';
 import * as Rx from 'rxjs';
@@ -13,7 +13,6 @@ export default class Menu extends Component {
     state = {
         showList: false,
         showContact: false,
-        showOrderIssue: false,
         displayOrderDiv: true,
     }
 
@@ -25,7 +24,7 @@ export default class Menu extends Component {
 
   render() {
     
-    const {showList, showContact, showOrderIssue} = this.state;
+    const {showList, showContact} = this.state;
     return (
       <div className="menuWrapper">
       <div className="menuSubWrapper">

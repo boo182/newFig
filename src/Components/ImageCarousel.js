@@ -11,8 +11,27 @@ export default class ImageCarousel extends Component {
         const hypotytose = images.hypotytose;
         const prosopopee = images.prosopopee;
 
-        return [...analepse, [<IssueDetails name={"analepse"}/>]];
+        return [
+            ...analepse,
+            [<IssueDetails name={"analepse"} />],
+            ...hypotytose,
+            [<IssueDetails name={"analepse"} />],
+            ...prosopopee,
+            [<IssueDetails name={"analepse"} />]
+        ];
     }
+    afterChange = e => {
+        const { setTitle } = this.props;
+        const analepse = images.analepse.length + 1;
+        const hypotytose = images.hypotytose.length + 1;
+        const prosopopee = images.prosopopee.length + 1;
+        
+        if(e < analepse && e >= 0) setTitle('analepse');
+        if(e >= analepse) setTitle('prosopopee');
+        if(e >= (analepse + hypotytose)) setTitle('hypotytose');
+        
+    }
+
   render() {
       const images = this.getIssues();
       var settings = {
@@ -23,10 +42,10 @@ export default class ImageCarousel extends Component {
       };
     return (
         <div className="CarouselWrapper">
-            <Slider {...settings} className="slider">
-                {images.map(item =>{
+            <Slider {...settings} className="slider" afterChange={e => this.afterChange(e)}>
+                {images.map((item, index) =>{
                     if(typeof item === 'object') {
-                        return <div className="details">{item}</div>
+                        return <div className="details" key={index}>{item}</div>
                     }
                     return (<div>
                         <img className="issueImages" key={item} src={item} alt={item} />

@@ -53,10 +53,12 @@
         },
         "prosopopee": {
             "pageTitle": "prosopopee",
+            "issueNumber": "fig. 1", 
             "number": "1"
         },
         "hypotytose": {
             "pageTitle": "hypotytose",
+            "issueNumber": "fig. 2",
             "number": "2"
         }
     }  

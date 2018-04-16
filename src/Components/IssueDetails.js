@@ -16,8 +16,7 @@ export default class IssueDetails extends Component {
   setSummary = () => {
     const { name } = this.props;
     const datas = data.pages[name].summary;
-    console.log(datas)
-    return datas.map(item => <p className="summaryItem">{item}</p>)
+    return datas.map(item => <p className="summaryItem" key={item}>{item}</p>)
   }
 
   render() {
