@@ -39,3 +39,20 @@ export const prosopopee = [
     prosopopee3,
     prosopopee4
 ];
+
+export const pleonasme = [
+    prosopopee0,
+    prosopopee1,
+    prosopopee2,
+    prosopopee3,
+    prosopopee4
+];
+
+export const shopImages = [
+    {img: prosopopee0, name: "pleonasme"},
+    {img: prosopopee0, name: "hypotytose" },
+    {img: hypotytose0, name: "prosopopee"},
+    {img: analepse0, name: "analepse"},
+    {img: analepse0, name: "analepse"},    
+        
+]

@@ -7,7 +7,7 @@ import * as Rx from 'rxjs';
 
 export default class Collection extends Component {
     state = {
-        issue: data.pages.analepse,
+        issue: data.pages.pleonasme,
     }
     componentWillMount() {
       this.props.getActualPage('collection');

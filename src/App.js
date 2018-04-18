@@ -3,6 +3,7 @@ import './App.css';
 import Edition from './Container/Edition';
 import Home from './Container/Home';
 import Menu from './Container/Menu';
+import Shop from './Container/Shop';
 import TitleBackground from './Components/TitleBackground';
 import Collection from './Container/Collection'
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -34,9 +35,14 @@ class App extends Component {
                         <Edition params={params} getActualPage={this.getActualPage} />
                     }>
                       </Route>
-                    <Route path="/collection/:issue"
+                    <Route path="/collection"
                       render={(params) =>
                         <Collection params={params} getActualPage={this.getActualPage} />
+                    }>
+                    </Route>
+                    <Route path="/boutique"
+                      render={(params) =>
+                        <Shop params={params} getActualPage={this.getActualPage} />
                     }>
                     </Route>
                   </div>

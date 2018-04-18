@@ -10,14 +10,17 @@ export default class ImageCarousel extends Component {
         const analepse = images.analepse;
         const hypotytose = images.hypotytose;
         const prosopopee = images.prosopopee;
+        const pleonasme = images.pleonasme;
 
         return [
-            ...analepse,
+            ...pleonasme,,
+            [<IssueDetails name={"analepse"} />],
+            ...prosopopee,
             [<IssueDetails name={"analepse"} />],
             ...hypotytose,
             [<IssueDetails name={"analepse"} />],
-            ...prosopopee,
-            [<IssueDetails name={"analepse"} />]
+            ...analepse,
+            [<IssueDetails name={"analepse"} />],
         ];
     }
     afterChange = e => {
@@ -25,10 +28,12 @@ export default class ImageCarousel extends Component {
         const analepse = images.analepse.length + 1;
         const hypotytose = images.hypotytose.length + 1;
         const prosopopee = images.prosopopee.length + 1;
+        const pleonasme = images.pleonasme.length + 1;
         
-        if(e < analepse && e >= 0) setTitle('analepse');
-        if(e >= analepse) setTitle('prosopopee');
-        if(e >= (analepse + hypotytose)) setTitle('hypotytose');
+        if(e < pleonasme && e >= 0) setTitle('pleonasme');
+        if(e >= pleonasme) setTitle('hypotytose');
+        if(e >= (pleonasme + prosopopee)) setTitle('prosopopee');
+        if(e >= (pleonasme + prosopopee + hypotytose)) setTitle('analepse');
         
     }
 

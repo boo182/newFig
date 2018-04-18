@@ -1,0 +1,43 @@
+.issueWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end
+}
+
+.shopItem {
+    width: 400px;
+    margin-left: 20px;
+}
+.hoveredImg:hover {
+    opacity: 0.9;
+}
+.hoveredImg {
+    position: fixed;
+    width: 400px;
+    margin-left: 20px;    
+    background-color: rgb(245, 245, 220);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 266px;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.hoveredImg span, 
+.hoveredImg .bigFont {
+    font-size: 40px;
+    font-family: "Ecam-bold";
+}
+
+.hoveredImg div span {
+    border-bottom: 3px solid black;
+    margin-left: 5px;
+}
+
+.issuePrice {
+    font-size: 20px;
+}
+

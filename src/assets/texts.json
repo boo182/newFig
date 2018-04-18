@@ -25,6 +25,9 @@
             "pageTitle": "édition fig.",
             "pageSubtitle": "Revue indépendante de critique architecturale"
         },
+        "boutique": {
+            "pageTitle": "boutique"
+        },
         "analepse": {
             "pageTitle": "analepse",
             "issueNumber": "fig. 0",
@@ -39,7 +42,8 @@
                 "pages intérieures: impression numérique noir & blanc",
                 "couverture: sérigraphie",
                 "langue: français"
-            ],      
+            ],
+            "price": "16 euros",     
             "summary": [
                 "récit\nNUNES, Antoine-Frédéric\nL'architecture fictionSur le projet du pont de Zaehringen, Vincent Mangeat,\nFribourg",
                 "récit\nBARNAY, Oscar Les traces\nSur le projet de la Faculdade de Arquitectura, Alvaro Siza,\nPorto",
@@ -54,12 +58,20 @@
         "prosopopee": {
             "pageTitle": "prosopopee",
             "issueNumber": "fig. 1", 
-            "number": "1"
+            "number": "1",
+            "price": "16 euros"
         },
         "hypotytose": {
             "pageTitle": "hypotytose",
             "issueNumber": "fig. 2",
-            "number": "2"
+            "number": "2",
+            "price": "16 euros"
+        },
+        "pleonasme": {
+            "pageTitle": "pléonasme",
+            "issueNumber": "fig. 3",
+            "number": "3",
+            "price": "16 euros"
         }
     }  
 

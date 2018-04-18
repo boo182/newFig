@@ -44,13 +44,20 @@ export default class Menu extends Component {
                     </li>
                     <li>
                         <NavLink
-                          to="/collection/analepse"
+                          to="/collection"
                           activeStyle={activeStyle}
                           onClick={() => this.setState({ showOrderIssue: true })}>
                             numéros
                         </NavLink>
                     </li>
-                    <li>boutique</li>
+                    <li>
+                        <NavLink
+                          to="/boutique"
+                          activeStyle={activeStyle}
+                          onClick={() => this.setState({ showOrderIssue: true })}>
+                            boutique
+                        </NavLink>
+                    </li>
                     <li>librairies</li>
                     <li>évènement</li>
                     <li
