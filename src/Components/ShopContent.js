@@ -2,10 +2,12 @@ import React, { Component } from 'react'
 import { shopImages } from '../assets/images/images';
 import data from '../assets/texts'
 import './styles/shopContent.css';
+import ShopIssueDetails from './ShopIssueDetails';
 
 export default class ShopContent extends Component {
     state = {
         showIssueDetails: false,
+        issueToDisplay: '',
     }
   
     getIssues = () => {
@@ -13,7 +15,11 @@ export default class ShopContent extends Component {
             const datas = data.pages[item.name];
             const { showIssueDetails } = this.state;
             return (
-            <div>
+            <div  key={`item-${index}`} onClick={() =>
+                this.setState({
+                    showIssueDetails: !showIssueDetails,
+                    issueToDisplay: item.name 
+                })}>
                 <div className="hoveredImg" >
                     <div className="bigFont">n°<span>{datas.number}</span></div>
                     <div className="bigFont">{datas.pageTitle}</div>
@@ -25,10 +31,12 @@ export default class ShopContent extends Component {
        return test; 
     }
   render() {
+    const { showIssueDetails } = this.state;      
     return (
       <div className="issueWrapper">
         <div style={{ width: '400px', height: '200px' }}></div> 
-        {this.getIssues()}
+        {!showIssueDetails ? this.getIssues():
+        <ShopIssueDetails issue={this.state.issueToDisplay} />}
       </div>
     )
   }
