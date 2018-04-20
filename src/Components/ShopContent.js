@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import { shopImages } from '../assets/images/images';
 import data from '../assets/texts'
 import './styles/shopContent.css';
@@ -11,10 +11,11 @@ export default class ShopContent extends Component {
     }
   
     getIssues = () => {
-        const test = shopImages.map((item, index) => {
-            const datas = data.pages[item.name];
-            const { showIssueDetails } = this.state;
-            return (
+     const test = shopImages.map((item, index) => {
+     const datas = data.pages[item.name];
+     const { showIssueDetails } = this.state;
+     
+    return (
             <div  key={`item-${index}`} onClick={() =>
                 this.setState({
                     showIssueDetails: !showIssueDetails,
@@ -34,8 +35,13 @@ export default class ShopContent extends Component {
     const { showIssueDetails } = this.state;      
     return (
       <div className="issueWrapper">
-        <div style={{ width: '400px', height: '200px' }}></div> 
-        {!showIssueDetails ? this.getIssues():
+        
+        {!showIssueDetails ? 
+        <Fragment>
+            <div style={{ width: '400px', height: '200px' }}></div> 
+            {this.getIssues()}
+        </Fragment>
+        :
         <ShopIssueDetails issue={this.state.issueToDisplay} />}
       </div>
     )

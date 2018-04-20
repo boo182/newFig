@@ -1,0 +1,33 @@
+.shopDetailPres {
+    font-size: 15px;
+    width: 250px;
+}
+.detailDiv {
+    font-size: 15px;
+}
+.shopDetailPicture {
+    width: 25vw;
+}
+.shopDetailWrapper {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftColumn {
+}
+
+.middleColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titleColumn {
+}
+
+.shopOrderIssue {
+    font-size: 25px;
+    font-family: 'Ecam-bold';
+    cursor: pointer;
+}

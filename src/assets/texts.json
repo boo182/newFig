@@ -59,19 +59,49 @@
             "pageTitle": "prosopopee",
             "issueNumber": "fig. 1", 
             "number": "1",
-            "price": "16 euros"
+            "price": "16 euros",
+            "presentation": "De la Faculdade de Arquitectura d’Alvaro Siza à Porto ou du projet de Vincent Mangeat du futur pont habité de Zaehringen à Fribourg, en passant par la reconversion de la Briqueterie de Philippe Prost à Paris, ce premier numéro conjugue le passé pour s’approprier le futur.",            
+            "details": [
+                "format: 190x255 mm",
+                "nombre de pages: 48 pages",
+                "prix de vente: 7euros",
+                "papiers: Spendorlux 80g et Arcoprint milk 70g et 250g de Fedrigoni",
+                "pages intérieures: impression numérique noir & blanc",
+                "couverture: sérigraphie",
+                "langue: français"
+            ]
         },
         "hypotytose": {
             "pageTitle": "hypotytose",
             "issueNumber": "fig. 2",
             "number": "2",
-            "price": "16 euros"
+            "price": "16 euros",
+            "presentation": "De la Faculdade de Arquitectura d’Alvaro Siza à Porto ou du projet de Vincent Mangeat du futur pont habité de Zaehringen à Fribourg, en passant par la reconversion de la Briqueterie de Philippe Prost à Paris, ce premier numéro conjugue le passé pour s’approprier le futur.",            
+            "details": [
+                "format: 190x255 mm",
+                "nombre de pages: 48 pages",
+                "prix de vente: 7euros",
+                "papiers: Spendorlux 80g et Arcoprint milk 70g et 250g de Fedrigoni",
+                "pages intérieures: impression numérique noir & blanc",
+                "couverture: sérigraphie",
+                "langue: français"
+            ]
         },
         "pleonasme": {
             "pageTitle": "pléonasme",
             "issueNumber": "fig. 3",
             "number": "3",
-            "price": "16 euros"
+            "price": "16 euros",
+            "presentation": "De la Faculdade de Arquitectura d’Alvaro Siza à Porto ou du projet de Vincent Mangeat du futur pont habité de Zaehringen à Fribourg, en passant par la reconversion de la Briqueterie de Philippe Prost à Paris, ce premier numéro conjugue le passé pour s’approprier le futur.",            
+            "details": [
+                "format: 190x255 mm",
+                "nombre de pages: 48 pages",
+                "prix de vente: 7euros",
+                "papiers: Spendorlux 80g et Arcoprint milk 70g et 250g de Fedrigoni",
+                "pages intérieures: impression numérique noir & blanc",
+                "couverture: sérigraphie",
+                "langue: français"
+            ]
         }
     }  
 
