@@ -11,9 +11,12 @@ export default class ImageCarousel extends Component {
         const hypotytose = images.hypotytose;
         const prosopopee = images.prosopopee;
         const pleonasme = images.pleonasme;
+        const paradoxe = images.paradoxe;
 
         return [
             ...pleonasme,,
+            [<IssueDetails name={"analepse"} />],
+            ...paradoxe,
             [<IssueDetails name={"analepse"} />],
             ...prosopopee,
             [<IssueDetails name={"analepse"} />],
@@ -28,12 +31,15 @@ export default class ImageCarousel extends Component {
         const analepse = images.analepse.length + 1;
         const hypotytose = images.hypotytose.length + 1;
         const prosopopee = images.prosopopee.length + 1;
+        const paradoxe = images.paradoxe.length + 1;
         const pleonasme = images.pleonasme.length + 1;
         
         if(e < pleonasme && e >= 0) setTitle('pleonasme');
-        if(e >= pleonasme) setTitle('hypotytose');
-        if(e >= (pleonasme + prosopopee)) setTitle('prosopopee');
-        if(e >= (pleonasme + prosopopee + hypotytose)) setTitle('analepse');
+        if(e >= pleonasme) setTitle('paradoxe');
+        if(e >= (pleonasme + paradoxe)) setTitle('hypotytose');
+        if(e >= (pleonasme + paradoxe + hypotytose)) setTitle('prosopopee');
+        if(e >= (pleonasme + paradoxe + hypotytose + prosopopee)) setTitle('analepse');
+        
         
     }
 

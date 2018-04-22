@@ -8,11 +8,12 @@ import TitleBackground from './Components/TitleBackground';
 import Collection from './Container/Collection'
 import { BrowserRouter as Router } from 'react-router-dom';
 import Route from 'react-router-dom/Route'
+import Bookstore from './Container/Bookstore';
+import IssueDetail from './Container/IssueDetail';
 
 class App extends Component {
   state = {
     actualPage: '',
-
   }
   
    getActualPage = (page) => this.setState({ actualPage: page });
@@ -43,6 +44,16 @@ class App extends Component {
                     <Route path="/boutique"
                       render={(params) =>
                         <Shop params={params} getActualPage={this.getActualPage} />
+                    }>
+                    </Route>
+                    <Route path="/issues/:issue"
+                      render={(params) =>
+                        <IssueDetail params={params} getActualPage={this.getActualPage} />
+                    }>
+                    </Route>
+                    <Route path="/librairies"
+                      render={(params) =>
+                        <Bookstore params={params} getActualPage={this.getActualPage} />
                     }>
                     </Route>
                   </div>

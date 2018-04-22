@@ -18,41 +18,49 @@ import prosopopee4 from './prosopopee/n°1-5.jpg';
 
 
 export const analepse = [
-    analepse0,
-    analepse1,
-    analepse2,
-    analepse3,
-    analepse4
+  analepse0,
+  analepse1,
+  analepse2,
+  analepse3,
+  analepse4,
 ];
 
 export const hypotytose = [
-    hypotytose0,
-    hypotytose1,
-    hypotytose2,
-    hypotytose3,
+  hypotytose0,
+  hypotytose1,
+  hypotytose2,
+  hypotytose3,
 ];
 
 export const prosopopee = [
-    prosopopee0,
-    prosopopee1,
-    prosopopee2,
-    prosopopee3,
-    prosopopee4
+  prosopopee0,
+  prosopopee1,
+  prosopopee2,
+  prosopopee3,
+  prosopopee4,
+];
+
+export const paradoxe = [
+  analepse0,
+  analepse1,
+  analepse2,
+  analepse3,
+  analepse4,
 ];
 
 export const pleonasme = [
-    prosopopee0,
-    prosopopee1,
-    prosopopee2,
-    prosopopee3,
-    prosopopee4
+  prosopopee0,
+  prosopopee1,
+  prosopopee2,
+  prosopopee3,
+  prosopopee4,
 ];
 
 export const shopImages = [
-    {img: prosopopee0, name: "pleonasme"},
-    {img: prosopopee0, name: "hypotytose" },
-    {img: hypotytose0, name: "prosopopee"},
-    {img: analepse0, name: "analepse"},
-    {img: analepse0, name: "analepse"},    
-        
-]
+  { img: prosopopee0, name: 'pleonasme' },
+  { img: analepse0, name: 'paradoxe' },
+  { img: prosopopee0, name: 'hypotytose' },
+  { img: hypotytose0, name: 'prosopopee' },
+  { img: analepse0, name: 'analepse' },
+
+];

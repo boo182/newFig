@@ -1,0 +1,8 @@
+.issueDetailContainer {
+    display: flex;
+    flex-direction: row;
+}
+.shopIssueDetailContent {
+    display: flex;
+    flex-direction: row;
+}

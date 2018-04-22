@@ -11,6 +11,7 @@ export default class ShopIssueDetails extends Component {
   }
   render() {
     const { datas } = this.state;
+    console.log(this.props.issue);
     return (
       <div>
         <div className="shopDetailWrapper">

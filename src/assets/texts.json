@@ -28,6 +28,26 @@
         "boutique": {
             "pageTitle": "boutique"
         },
+        "librairies": {
+            "pageTitle": "librairies",
+            "adresses": [
+                { "city": "Bordeaux\n", "detail": "N’a qu’1 oeil\n19 Rue Bouquière\n33000 Bordeaux"},
+                { "city": "Clermond Ferrand\n", "detail": "SCOP Les Volcans\n80, Bd François Mitterrand\n63000 Clermont Ferrand"},
+                { "city": "Lyon\n", "detail": "Archipel\n21 place des Terreaux\n69001 Lyon"},
+                { "city": "Marseille\n", "detail": "Imbernon\n280, Boulevard Michelet\n13008 Marseille"},
+                { "city": "Marseille\n", "detail": "La Salle des Machines\nFriche la Belle de Mai 41 rue Jobin\n13003 MARSEILLE"},
+                { "city": "Nantes\n", "detail": "Vent d'Ouest au Lieu Unique\n2, rue de la biscuiterie\n44 000 Nantes"},
+                { "city": "Perpignan\n", "detail": "FILAF\n4 bis place Grétry\n66000 Perpignan"},
+                { "city": "Paris\n", "detail": "Librairie Yvon Lambert\n108, rue vieille du temple\n75003 Paris"},
+                { "city": "Paris\n", "detail": "ArchiLib\n49, boulevard de la Villette\n75010 Paris"},
+                { "city": "Paris\n", "detail": "Librairie le Cabanon\n122 Rue de Charenton,\n75012 Paris"},
+                { "city": "Paris\n", "detail": "La Galerie d'Architecture\n11 rue des blancs manteaux\n75004 Paris"},
+                { "city": "Paris\n", "detail": "Librairie Le Moniteur\n1, place du Trocadéro\n75016 Paris"},
+                { "city": "Paris\n", "detail": "Librairie Volume\n47, rue Notre-Dame de Nazareth\n75003 Paris"},
+                { "city": "Saint-Étienne\n", "detail": "Lune et l'autre\n19 Rue Pierre Bérard\n42000 Saint-Étienne"},
+                { "city": "Strasbourg\n", "detail": "Quai des Brumes\n120, Grand'Rue\n67000 Strasbourg"}
+            ]
+        },
         "analepse": {
             "pageTitle": "analepse",
             "issueNumber": "fig. 0",
@@ -52,7 +72,6 @@
                 "photographie\nMOREAU, Suzanne\nPerazica Do Monténégro",
                 "table ronde\nGRAIL, Hugo\nSchizophrénie\nTable ronde autour de 4 livres",
                 "entretien\nCHEVASSUS, Hugo\nCombat\nEntretien avec Pierre CHABARD, rédacteur en chef de la revue Criticat"
-
             ]
         },
         "prosopopee": {
@@ -87,10 +106,26 @@
                 "langue: français"
             ]
         },
-        "pleonasme": {
-            "pageTitle": "pléonasme",
+        "paradoxe": {
+            "pageTitle": "paradoxe",
             "issueNumber": "fig. 3",
             "number": "3",
+            "price": "16 euros",
+            "presentation": "De la Faculdade de Arquitectura d’Alvaro Siza à Porto ou du projet de Vincent Mangeat du futur pont habité de Zaehringen à Fribourg, en passant par la reconversion de la Briqueterie de Philippe Prost à Paris, ce premier numéro conjugue le passé pour s’approprier le futur.",            
+            "details": [
+                "format: 190x255 mm",
+                "nombre de pages: 48 pages",
+                "prix de vente: 7euros",
+                "papiers: Spendorlux 80g et Arcoprint milk 70g et 250g de Fedrigoni",
+                "pages intérieures: impression numérique noir & blanc",
+                "couverture: sérigraphie",
+                "langue: français"
+            ]
+        },
+        "pleonasme": {
+            "pageTitle": "pléonasme",
+            "issueNumber": "fig. 4",
+            "number": "4",
             "price": "16 euros",
             "presentation": "De la Faculdade de Arquitectura d’Alvaro Siza à Porto ou du projet de Vincent Mangeat du futur pont habité de Zaehringen à Fribourg, en passant par la reconversion de la Briqueterie de Philippe Prost à Paris, ce premier numéro conjugue le passé pour s’approprier le futur.",            
             "details": [

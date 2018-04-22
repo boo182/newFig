@@ -17,6 +17,7 @@ export default class Menu extends Component {
     }
 
       componentWillMount () {
+          if (this.props.actualPage === 'issue') this.setState({ displayOrderDiv: true });
         this.resizeEvent = Rx.Observable.fromEvent(window, 'resize')
             .subscribe(() => this.setState({ displayOrderDiv: window.innerWidth >= 1140 || false }))
       }
@@ -40,13 +41,16 @@ export default class Menu extends Component {
         {showList && <div className="options">
                 <ul className="list">
                     <li>
-                        <NavLink to="/edition" activeStyle={activeStyle}>édition fig</NavLink>
+                        <NavLink
+                            to="/edition"
+                            onClick={() => this.setState({ displayOrderDiv: false })}
+                            activeStyle={activeStyle}>édition fig</NavLink>
                     </li>
                     <li>
                         <NavLink
                           to="/collection"
                           activeStyle={activeStyle}
-                          onClick={() => this.setState({ showOrderIssue: true })}>
+                          onClick={() => this.setState({ displayOrderDiv: true })}>
                             numéros
                         </NavLink>
                     </li>
@@ -54,11 +58,18 @@ export default class Menu extends Component {
                         <NavLink
                           to="/boutique"
                           activeStyle={activeStyle}
-                          onClick={() => this.setState({ showOrderIssue: true })}>
+                          onClick={() => this.setState({ displayOrderDiv: false })}>
                             boutique
                         </NavLink>
                     </li>
-                    <li>librairies</li>
+                    <li>
+                        <NavLink
+                          to="/librairies"
+                          activeStyle={activeStyle}
+                          onClick={() => this.setState({ displayOrderDiv: false })}>
+                            librairies
+                        </NavLink>
+                    </li>
                     <li>évènement</li>
                     <li
                       onClick={() => this.setState({ showContact: !showContact })}
@@ -72,7 +83,7 @@ export default class Menu extends Component {
         {(showContact && showList) && <ContactList />}
         </div>
         {this.state.displayOrderDiv && <div className="orderIssue">
-            {this.props.actualPage === 'collection' && <OrderIssue  />}
+            {<OrderIssue  />}
         </div>}
       </div>
     )

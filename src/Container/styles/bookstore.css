@@ -1,0 +1,19 @@
+.bookstoreContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.bookstores {
+    margin-left: 5vw;
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 17vh;;
+}
+
+.bookstore {
+    font-size: 20px;
+    white-space: pre-line;
+    margin-right: 10vw;    
+}
