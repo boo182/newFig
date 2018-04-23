@@ -14,7 +14,7 @@ export default class ImageCarousel extends Component {
         const paradoxe = images.paradoxe;
 
         return [
-            ...pleonasme,,
+            ...pleonasme,
             [<IssueDetails name={"analepse"} />],
             ...paradoxe,
             [<IssueDetails name={"analepse"} />],
@@ -28,7 +28,6 @@ export default class ImageCarousel extends Component {
     }
     afterChange = e => {
         const { setTitle } = this.props;
-        const analepse = images.analepse.length + 1;
         const hypotytose = images.hypotytose.length + 1;
         const prosopopee = images.prosopopee.length + 1;
         const paradoxe = images.paradoxe.length + 1;

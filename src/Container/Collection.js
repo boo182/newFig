@@ -17,7 +17,7 @@ export default class Collection extends Component {
     setTitle = (title) => this.setState({issue: data.pages[title]}); 
 
   render() {
-    const {displayCarousel, issue} = this.state;
+    const { issue } = this.state;
 
     return (
       <div className="collectionContainer">

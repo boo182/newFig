@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import data from '../assets/texts.json';
 import * as images from '../assets/images/images';
 import './styles/shopIssueDetail.css';
-import OrderIssue from './OrderIssue';
 
 export default class ShopIssueDetails extends Component {
   state = {
@@ -11,25 +10,25 @@ export default class ShopIssueDetails extends Component {
   }
   render() {
     const { datas } = this.state;
-    console.log(this.props.issue);
     return (
       <div>
         <div className="shopDetailWrapper">
-          <div className="leftColumn">
-            <img className="shopDetailPicture" src={this.state.image} alt={this.state.image} />
-            
-          </div>
+         <div className="shopDetailPres">
+         <div className="shopIssuePresTitle">{`${datas.issueNumber} ${datas.pageTitle}`}</div>
+         <div>{datas.presentation}</div>
+         </div>
+          
           <div className="middleColumn">
           <Fragment>
             <div>
               {datas.details.map(item => <div key={item} className="detailDiv">{item}</div>)}
             </div>
-            <div className="shopOrderIssue" onClick={() => console.log('hello')}>commander</div>
           </Fragment>
           </div>
-          <div className="titleColumn">{datas.pageTitle}</div>
+          <div className="rightColumn">
+            <img className="shopDetailPicture" src={this.state.image} alt={this.state.image} />
+          </div>
         </div>
-        <div className="shopDetailPres">{datas.presentation}</div>
       </div>
     );
   }

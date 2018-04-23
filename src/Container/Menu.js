@@ -16,11 +16,14 @@ export default class Menu extends Component {
         displayOrderDiv: true,
     }
 
-      componentWillMount () {
-          if (this.props.actualPage === 'issue') this.setState({ displayOrderDiv: true });
-        this.resizeEvent = Rx.Observable.fromEvent(window, 'resize')
-            .subscribe(() => this.setState({ displayOrderDiv: window.innerWidth >= 1140 || false }))
-      }
+    componentWillMount () {
+    if (this.props.actualPage === 'issues') this.setState({ displayOrderDiv: true });
+    console.log(this.props.actualPage);
+    if (this.props.actualPage === '') this.setState({ displayOrderDiv: false });
+
+    this.resizeEvent = Rx.Observable.fromEvent(window, 'resize')
+        .subscribe(() => this.setState({ displayOrderDiv: window.innerWidth >= 1140 || false }))
+    }
 
 
   render() {
@@ -70,7 +73,6 @@ export default class Menu extends Component {
                             librairies
                         </NavLink>
                     </li>
-                    <li>évènement</li>
                     <li
                       onClick={() => this.setState({ showContact: !showContact })}
                       style={showContact ? activeStyle : null}

@@ -16,10 +16,14 @@ class App extends Component {
     actualPage: '',
   }
   
-   getActualPage = (page) => this.setState({ actualPage: page });
+   getActualPage = (page) => {
+     console.log(page);
+     this.setState({ actualPage: page });
+   }
 
 
   render() {
+  
     return (
         <Router>
               <div className="App">

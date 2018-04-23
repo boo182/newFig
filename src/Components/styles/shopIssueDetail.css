@@ -9,12 +9,11 @@
     width: 25vw;
 }
 .shopDetailWrapper {
+    margin-top: 17vh;
     width: 70vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.leftColumn {
 }
 
 .middleColumn {
@@ -23,11 +22,13 @@
     justify-content: space-between;
 }
 
-.titleColumn {
-}
-
 .shopOrderIssue {
     font-size: 25px;
     font-family: 'Ecam-bold';
     cursor: pointer;
+}
+
+.shopIssuePresTitle {
+    font-size: 18px;
+    font-family: 'Ecam-bold';
 }
