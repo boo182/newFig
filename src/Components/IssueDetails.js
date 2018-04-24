@@ -4,6 +4,7 @@ import data from '../assets/texts';
 
 
 export default class IssueDetails extends Component {
+  
   getDetails = () => {
     const { name } = this.props;
     return data.pages[name];

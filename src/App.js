@@ -27,40 +27,40 @@ class App extends Component {
     return (
         <Router>
               <div className="App">
-                {/* <TitleBackground display={this.state.actualPage === 'home'}/>               */}
                   <Menu className="menu" actualPage={this.state.actualPage}/>
                   <div className="Content">
                     <Route path="/" exact
                       render={(params) =>
                         <Home params={params} getActualPage={this.getActualPage} />
-                    }>
+                      }>
                     </Route>
                     <Route path="/edition" exact
                       render={(params) =>
                         <Edition params={params} getActualPage={this.getActualPage} />
-                    }>
+                      }>
                       </Route>
                     <Route path="/collection"
                       render={(params) =>
                         <Collection params={params} getActualPage={this.getActualPage} />
-                    }>
+                      }>
                     </Route>
                     <Route path="/boutique"
                       render={(params) =>
                         <Shop params={params} getActualPage={this.getActualPage} />
-                    }>
+                      }>
                     </Route>
                     <Route path="/issues/:issue"
                       render={(params) =>
                         <IssueDetail params={params} getActualPage={this.getActualPage} />
-                    }>
+                      }>
                     </Route>
                     <Route path="/librairies"
                       render={(params) =>
                         <Bookstore params={params} getActualPage={this.getActualPage} />
-                    }>
+                      }>
                     </Route>
                   </div>
+                  <TitleBackground display={this.state.actualPage === 'home'}/>              
               </div>
           </Router>
     );

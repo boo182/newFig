@@ -15,13 +15,13 @@ export default class ImageCarousel extends Component {
 
         return [
             ...pleonasme,
-            [<IssueDetails name={"analepse"} />],
+            [<IssueDetails name={"pleonasme"} />],
             ...paradoxe,
-            [<IssueDetails name={"analepse"} />],
+            [<IssueDetails name={"paradoxe"} />],
             ...prosopopee,
-            [<IssueDetails name={"analepse"} />],
+            [<IssueDetails name={"prosopopee"} />],
             ...hypotytose,
-            [<IssueDetails name={"analepse"} />],
+            [<IssueDetails name={"hypotytose"} />],
             ...analepse,
             [<IssueDetails name={"analepse"} />],
         ];
