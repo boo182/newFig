@@ -23,6 +23,12 @@
         "edition": {
             "edition_fig": "sjwdhfgqkjsgfkjqhsgfkjhqsg,\n consectetur\n adipiscing elit. Ut arcu felis,\n\nelementum eget maximus at, suscipit vel orci. Nulla urna metus, placerat sed mauris tincidunt, maximus porta urna. Praesent turpis enim, dignissim sit amet dictum sit amet, sagittis a ante. Nullam felis augue, interdum et ornare ultrices, elementum ut nisi. Aliquam ligula urna, volutpat eget risus in, posuere interdum ante. Nullam sed risus sed ex pellentesque vestibulum vel et sem. Aenean id efficitur mi. Suspendisse vel dictum dui. Donec eu odio id velit cursus commodo. Phasellus finibus ipsum imperdiet ultrices tristique. Suspendisse felis justo, condimentum a ullamcorper at, laoreet in dolor. Curabitur vehicula justo nec leo pulvinar, tincidunt volutpat orci consectetur. Proin interdum maximus metus, eget laoreet dolor luctus id. Fusce et quam eu metus aliquet pulvinar. Integer quis velit et diam condimentum consectetur. Quisque est massa, mattis sed tempus ut, tincidunt pharetra arcu. Mauris sed tincidunt ante, at sollicitudin nunc. Vestibulum sed nunc at dui elementum posuere. Integer nibh nisi, congue in eros a, molestie egestas libero. Nulla facilisi. Morbi at tristique sapien, vitae blandit erat. Pellentesque suscipit elit at tellus imperdiet, eu dapibus arcu sodales. Morbi pharetra aliquam risus, quis feugiat risus maximus vel",
             "pageTitle": "édition fig.",
+            "texts": {
+                "titleLeft": "la revue",
+                "titleRight": "éditer",
+                "contentLeft": "La revue fig. est une revue d’architecture qui ne parle pas seulement d’architecture.\nC’est un support imprimé qui permet d’expérimenter et d’interroger l’espace, la ville, le paysage, le chantier et l’habiter. Son but est de livrer une critique architecturale innovante, plurielle, graphique et grammaticale, réunissant des positionnements artistiques, littéraires et philosophiques. fig., c’est une figure de style par numéro : l’architecture, au sens figuré, est celle qui interpelle l’imaginaire et transmet une émotion, une sensation, ou une idée.\nQuelles sont alors les figures de style de l’architecture ?\n\nFondée en 2015 en tant qu’outil de résistance politique, social et poétique, par une graphiste et un architecte, la revue emprunte le chemin perpendiculaire de l’édition indépendante, désireuse d’avancer sans partenaire idéologique. \n",
+                "contentRight": "La revue est portée par le collectif fig., ensemble amateur regroupant des architectes, artistes, écrivains et graphistes.Le collectif n’est pas figé, et se structure à partir de l’implication mouvante et bénévole de ses membres Il fait le choix d’éditer seul la revue, c’est à dire d’en assurer la reproduction, la publication et la diffusion. Cela étant dit, le collectif s’empare de la diffusion à son sens le plus large. Il nous importe d’investir l’espace papier et de retranscrire celui-ci à l’espace physique. Un numéro de fig. s’accompagne d’une ou plusieurs expositions où le contenu prend une forme nouvelle, grâce à la participation des auteurs pour proposer une oeuvre en lien avec leur publication. Ce temps de déambulation est propice à une lecture élargie des articles du numéro.\n\nÉditer est une affaire collective. C’est pourquoi nous sommes entourés de partenaires moraux précieux : (ajouter liens)\n-Les contributeurs\n-Les libraires\n-L’ENSASE (https://www.st-etienne.archi.fr/) \n-L’ESADSE (http://www.esadse.fr/fr/home/)\n-Longtype (https://www.long-type.com/), fonderie parisienne à l’origine de la fonte Ecam) \n-La Générale Nord Est (https://www.lagenerale.fr/)\n-La revue Sur-Mesure (http://www.revuesurmesure.fr)\n"
+            },
             "pageSubtitle": "Revue indépendante de critique architecturale"
         },
         "boutique": {
@@ -57,13 +63,14 @@
             "details": [
                 "format: 190x255 mm",
                 "nombre de pages: 48 pages",
+                "nombre d’exemplaires: 110",
                 "prix de vente: 7euros",
                 "papiers: Spendorlux 80g et Arcoprint milk 70g et 250g de Fedrigoni",
                 "pages intérieures: impression numérique noir & blanc",
                 "couverture: sérigraphie",
                 "langue: français"
             ],
-            "price": "16 euros",     
+            "price": "7 euros",     
             "summary": [
                 "récit\nNUNES, Antoine-Frédéric\nL'architecture fictionSur le projet du pont de Zaehringen, Vincent Mangeat,\nFribourg",
                 "récit\nBARNAY, Oscar Les traces\nSur le projet de la Faculdade de Arquitectura, Alvaro Siza,\nPorto",
@@ -78,50 +85,55 @@
             "pageTitle": "prosopopee",
             "issueNumber": "fig. 1", 
             "number": "1",
-            "price": "16 euros",
-            "presentation": "De la Faculdade de Arquitectura d’Alvaro Siza à Porto ou du projet de Vincent Mangeat du futur pont habité de Zaehringen à Fribourg, en passant par la reconversion de la Briqueterie de Philippe Prost à Paris, ce premier numéro conjugue le passé pour s’approprier le futur.",            
+            "definition": "La prosopopée, du grec prosôpon (le visage) et poiein (faire, fabriquer), est une figure de style par laquelle l’auteur prête la parole à un absent ou à un être inanimé. Doter l’architecture d’un langage. Coller son oreille au mur. Écouter. Tels sont les enjeux qui gravitent autour des recherches effleurées dans ce numéro",
+            "price": "7 euros",
+            "presentation": "Nous croyons que l’architecture est un recueil, dans lequel chaque bâtiment est un protagoniste. Ainsi, nous conférons à l’architecte la figure d’auteur. À travers ce numéro, il fallait laisser la parole aux héros afin de doter l’architecture d’un langage puis de coller son oreille au mur, écouter",
             "details": [
                 "format: 190x255 mm",
-                "nombre de pages: 48 pages",
+                "nombre de pages: 36 pages",
+                "nombre d’exemplaires: 160",                
                 "prix de vente: 7euros",
-                "papiers: Spendorlux 80g et Arcoprint milk 70g et 250g de Fedrigoni",
+                "papiers: Spendorlux 80g et 250g de Fedrigoni",
                 "pages intérieures: impression numérique noir & blanc",
                 "couverture: sérigraphie",
                 "langue: français"
             ],
             "summary": [
-                "récit\nNUNES, Antoine-Frédéric\nL'architecture fictionSur le projet du pont de Zaehringen, Vincent Mangeat,\nFribourg",
-                "récit\nBARNAY, Oscar Les traces\nSur le projet de la Faculdade de Arquitectura, Alvaro Siza,\nPorto",
-                "récit\nGAUDRIOT, Hubert\nLa chapelle rejoint les châteaux et l'usine les palaisSur les projets de chapelle de Mario Botta et d’usine de Livio Vacchini,\nTessin, Suisse",
-                "récit\nANTIN, Nina\nLe ballet urbain de la briqueterieSur le projet de la Briqueterie de Philippe Prost,\nParis",
-                "photographie\nMOREAU, Suzanne\nPerazica Do Monténégro",
-                "table ronde\nGRAIL, Hugo\nSchizophrénie\nTable ronde autour de 4 livres",
-                "entretien\nCHEVASSUS, Hugo\nCombat\nEntretien avec Pierre CHABARD, rédacteur en chef de la revue Criticat"
+                "récit\nAmélie Tripoz\nAdieu\nSur le projet de la Philharmonie de Paris, Jean Nouvel, Paris",
+                "récit\nLauranne Fleury\nFaux jumeaux\nÀ propos de la reconversion des bâtiments industriels",
+                "récit\nNicolas Tardy\nUn grand trou n’a pas besoin d’être creusé À propos d’Archigram",
+                "récit\nMathilde Segonds\nUn cinq pièces béton, (Sans titre), La maison",
+                "photographie\nDaniel Fuchs\nDays are Pale\nMunich",
+                "position\nBenjamin Dos Santos\nMondes à la carte\nPour une cartographie",
+                "missive\nCarla Frick-Cloupet\nJ’écris ton nom\nMéthodes et permission"
             ]
         },
         "hypotytose": {
             "pageTitle": "hypotytose",
             "issueNumber": "fig. 2",
             "number": "2",
-            "price": "16 euros",
-            "presentation": "De la Faculdade de Arquitectura d’Alvaro Siza à Porto ou du projet de Vincent Mangeat du futur pont habité de Zaehringen à Fribourg, en passant par la reconversion de la Briqueterie de Philippe Prost à Paris, ce premier numéro conjugue le passé pour s’approprier le futur.",            
+            "price": "7 euros",
+            "definition": "L’hypotypose (du grec ancien hupotupôsis, «ébauche, modèle») est une figure par laquelle l’auteur dessine un tableau sous les yeux du lecteur, à travers un discours descriptif vif",
+            "presentation": "En avril 2015, Saint-Étienne accueillait la 9ème édition de la Biennale Internationale du Design. L’événement s’est établit sporadiquement dans les structures culturelles de la ville, notamment dans la Manufacture d’Armes de Saint-Étienne, l’École Supérieure d’Art et Design et l’École Nationale Supérieure d’Architecture, où nous étudiions respectivement le graphisme et l’architecture. L’ensemble des expositions questionnaient « Les sens du beau ». Investi dans ce tourbillon d’énergie, ce numéro s’est approprié les problématiques de la biennale à travers l’étude de l’hypotypose en architecture.",            
             "details": [
                 "format: 190x255 mm",
                 "nombre de pages: 48 pages",
+                "nombre d’exemplaires : 110",
                 "prix de vente: 7euros",
-                "papiers: Spendorlux 80g et Arcoprint milk 70g et 250g de Fedrigoni",
+                "papiers: Arcoprint milk 70g et 250 g de Fedrigoni",
                 "pages intérieures: impression numérique noir & blanc",
                 "couverture: sérigraphie",
                 "langue: français"
             ],
             "summary": [
-                "récit\nNUNES, Antoine-Frédéric\nL'architecture fictionSur le projet du pont de Zaehringen, Vincent Mangeat,\nFribourg",
-                "récit\nBARNAY, Oscar Les traces\nSur le projet de la Faculdade de Arquitectura, Alvaro Siza,\nPorto",
-                "récit\nGAUDRIOT, Hubert\nLa chapelle rejoint les châteaux et l'usine les palaisSur les projets de chapelle de Mario Botta et d’usine de Livio Vacchini,\nTessin, Suisse",
-                "récit\nANTIN, Nina\nLe ballet urbain de la briqueterieSur le projet de la Briqueterie de Philippe Prost,\nParis",
-                "photographie\nMOREAU, Suzanne\nPerazica Do Monténégro",
-                "table ronde\nGRAIL, Hugo\nSchizophrénie\nTable ronde autour de 4 livres",
-                "entretien\nCHEVASSUS, Hugo\nCombat\nEntretien avec Pierre CHABARD, rédacteur en chef de la revue Criticat"
+                "dialogue\nDaria Ayvazova et Merryl Bouchereau\nDedans-Dehors\nSur la Manufacture d’armes, Saint-Étienne",
+                "position\nSamuel Hackwill\nSeize Mille\nSur la Manufacture d’armes, Saint-Étienne",
+                "position\nJacob Lyon\nLimites tacites\nÀ propos de la Biennale du Design de Saint-Étienne",
+                "dessin\nBaptiste Deyrail\nEnvers\n À propos de la Biennale du Design de Saint-Étienne",
+                "photographie\nAlexandra Caunes\nTravaux en cours\nÀ propos de la Biennale du Design de Saint-Étienne",
+                "récit\nNicolas Goubier\nCorps-Ville\nÀ propos de la course en ville",
+                "récit\nLéa Jeanjacques\nPaysage éprouvé\nMalin Head, Donegal, Irlande",
+                "récit\nOscar Barnay\nSur la route\nÀ propos de l’aire d’autoroute"
             ]
         },
         "paradoxe": {
@@ -129,24 +141,29 @@
             "issueNumber": "fig. 3",
             "number": "3",
             "price": "16 euros",
-            "presentation": "De la Faculdade de Arquitectura d’Alvaro Siza à Porto ou du projet de Vincent Mangeat du futur pont habité de Zaehringen à Fribourg, en passant par la reconversion de la Briqueterie de Philippe Prost à Paris, ce premier numéro conjugue le passé pour s’approprier le futur.",            
+            "definitition": "Un paradoxe, d’après l’étymologie (du grec paradoxos, « παράδοξος » : « contraire à l’opinion commune », de para : « contre », et doxa : « opinion »), est une idée ou une proposition à première vue surprenante ou choquante, c’est-à-dire allant contre le sens commun. En ce sens, le paradoxe désigne également une figure de style consistant à formuler, au sein d’un discours, une expression, généralement antithétique, qui va à l’encontre du sens commun.",
+            "presentation": "Dans ce troisième numéro de fig., le sens commun des choses, et leur complexité inattendue, sont mis au défi ou simplement démontrés. Le paradoxe est en effet un outil de réflexion capable de limiter une idée ou au contraire de la renforcer. Tous les figurants y sont des rêveurs, en phase de sommeil paradoxal, mais les yeux bien ouverts; curieux d’aller fouiller dans la cave et le grenier de l’architecture, du graphisme et de l’opinion publique. ",            
             "details": [
                 "format: 190x255 mm",
                 "nombre de pages: 48 pages",
-                "prix de vente: 7euros",
-                "papiers: Spendorlux 80g et Arcoprint milk 70g et 250g de Fedrigoni",
-                "pages intérieures: impression numérique noir & blanc",
-                "couverture: sérigraphie",
+                "nombre d’exemplaires : 500",
+                "prix de vente: 16euros",
+                "papiers: Arcoprint milk 70 g et Sirio ultra black 115 g et 250 g de Fedrigoni",
+                "pages impression offset noir & blanc",
+                "imprimeur : Art et caractère",
                 "langue: français"
             ],
             "summary": [
-                "récit\nNUNES, Antoine-Frédéric\nL'architecture fictionSur le projet du pont de Zaehringen, Vincent Mangeat,\nFribourg",
-                "récit\nBARNAY, Oscar Les traces\nSur le projet de la Faculdade de Arquitectura, Alvaro Siza,\nPorto",
-                "récit\nGAUDRIOT, Hubert\nLa chapelle rejoint les châteaux et l'usine les palaisSur les projets de chapelle de Mario Botta et d’usine de Livio Vacchini,\nTessin, Suisse",
+                "récit\nHugo Grail\nUne amicale laïque?\nAmicale laïque Chapelon. Clément Vergely. Saint- Étienne",
+                "récit\nCarla Frick-Cloupet\nC’était un rendez-vous\nComplexe sportif. Bruther. Paris",
+                "espace public\nRuedi Baur\nLes paradoxes de l’inscription partagée Sur Intégral Ruedi Baur. Paris",
                 "récit\nANTIN, Nina\nLe ballet urbain de la briqueterieSur le projet de la Briqueterie de Philippe Prost,\nParis",
-                "photographie\nMOREAU, Suzanne\nPerazica Do Monténégro",
-                "table ronde\nGRAIL, Hugo\nSchizophrénie\nTable ronde autour de 4 livres",
-                "entretien\nCHEVASSUS, Hugo\nCombat\nEntretien avec Pierre CHABARD, rédacteur en chef de la revue Criticat"
+                "ville\nBarbara Szaniecki\nCapitalisme créatif \nRio De Janeiro. Brésil\n",
+                "ville\nLouis Dunbar\nTbilissi porte tous les visages. \nTbilissi. Géorgie\n",
+                "photographie\nSandirne Binoux\nPaysages paradoxaux\n",
+                "pamphlet\nAmélie Tripoz\nAbécédaire du starchitecte\n",
+                "bande dessinée\nMartin Guillaumie\nLes toilettes de Plochingen Plonchingen. Allemagne\n",
+                "jeu vidéo\nBenjamin Dos Santos\nMachine qui rêve\n"
             ]
         },
         "pleonasme": {
@@ -154,24 +171,35 @@
             "issueNumber": "fig. 4",
             "number": "4",
             "price": "16 euros",
-            "presentation": "De la Faculdade de Arquitectura d’Alvaro Siza à Porto ou du projet de Vincent Mangeat du futur pont habité de Zaehringen à Fribourg, en passant par la reconversion de la Briqueterie de Philippe Prost à Paris, ce premier numéro conjugue le passé pour s’approprier le futur.",            
+            "definition": "Un pléonasme (du grec πλεονασμός / pleonasmós, qui signifie d’abord «surcharge») est une figure de style par laquelle un terme ou une expression ajoute une répétition (consciente ou inconsciente) à ce qui a été énoncé.",
+            "presentation": "(à compléter)",            
             "details": [
                 "format: 190x255 mm",
-                "nombre de pages: 48 pages",
-                "prix de vente: 7euros",
-                "papiers: Spendorlux 80g et Arcoprint milk 70g et 250g de Fedrigoni",
-                "pages intérieures: impression numérique noir & blanc",
-                "couverture: sérigraphie",
+                "nombre de pages: 156 pages",
+                "nombre d’exemplaires : 500",                
+                "prix de vente: 16euros",
+                "papiers : Coral Book White blanc 80g et Savile Row Tweed Extra White blanc 300g",
+                "pages intérieures: impression offset noir & blanc",
+                "imprimeur : Art et caractère",                
                 "langue: français"
             ],
             "summary": [
-                "récit\nNUNES, Antoine-Frédéric\nL'architecture fictionSur le projet du pont de Zaehringen, Vincent Mangeat,\nFribourg",
-                "récit\nBARNAY, Oscar Les traces\nSur le projet de la Faculdade de Arquitectura, Alvaro Siza,\nPorto",
-                "récit\nGAUDRIOT, Hubert\nLa chapelle rejoint les châteaux et l'usine les palaisSur les projets de chapelle de Mario Botta et d’usine de Livio Vacchini,\nTessin, Suisse",
-                "récit\nANTIN, Nina\nLe ballet urbain de la briqueterieSur le projet de la Briqueterie de Philippe Prost,\nParis",
-                "photographie\nMOREAU, Suzanne\nPerazica Do Monténégro",
-                "table ronde\nGRAIL, Hugo\nSchizophrénie\nTable ronde autour de 4 livres",
-                "entretien\nCHEVASSUS, Hugo\nCombat\nEntretien avec Pierre CHABARD, rédacteur en chef de la revue Criticat"
+                "Position\nKader Mokadem\nPléonasme\nIndex de rhétorique",
+                "Récit\nLyna Bourouiba\nQuand l’architecture reproduit\nSur le thème en architecture.\n",
+                "Récit\nHugo Grail\nQuand l’architecture bégaie\nTianjin. Chine\n",
+                "Photographie\nThomas Destaing\nHabitat\nSur l’habitat précaire\n",
+                "Fiction\nLambert Moiroux et Quentin Laurens-Berge\nWe Are an Event\nSaint-Etienne. France\n",
+                "Ville\nBernardo Robles Hidalgo et Koen Berghmans\nL’entretien e(s)t l’architecture\nBiennale 2017. Saint-Etienne.\n",
+                "Affichage urbain\nTania Mouraud\n[pleônasm]\n",
+                "Récit\nCharlie Duperron\nRésidents en transits\nA propos de l’accueil de migrants au Château de la Durie\nSaint-Denis-de-Cabanne. France.\n",
+                "Position\nHubert gaudriot\nCe que nous devons\nPour une anticipation du changement\n",
+                "Illustration\nMacula Nigra\nArchigraphie\nRennes. France\n",
+                "Centon\nSégolène Moteley\nRetour sur terre.\nSur un voyage intergalactique.\n",
+                "Bande dessinée\nAmélie Trioz ET Hubert Lafore\nAdversaire invincible\nSur la désorganisation.\n",
+                "Cinéma\nDélivrance\nMatthieu Samadet\nJohn Boorman. 1972\n",
+                "Cinéma\nTill Lepêtre\nLumière-Décor\n",
+                "Bande dessinée\nJean Claude Paillasson\nKrazy kit\n",
+                "Diplôme Dihiya Aït Aoudia et Lucie Rossignol\nAlger retrouvée\nENSA Versailles\n"
             ]
         }
     }  
