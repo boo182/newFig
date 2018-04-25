@@ -55,7 +55,7 @@ export default class ImageCarousel extends Component {
             <Slider {...settings} className="slider" afterChange={e => this.afterChange(e)}>
                 {images.map((item, index) =>{
                     if(typeof item === 'object') {
-                        return <div className="details" key={index}>{item}</div>
+                        return <div className="details" key={`${item}-index`}>{item}</div>
                     }
                     return (<div>
                         <img className="issueImages" key={item} src={item} alt={item} />

@@ -10,8 +10,8 @@ export default class Shop extends Component {
         texts: data.pages[pathName(this.props.params.match.path)],
     };
 
-componentWillMount() {
-    this.props.getActualPage('boutique');
+    componentWillMount() {
+        this.props.getActualPage('boutique');
     }
     
   render() {

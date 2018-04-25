@@ -3,10 +3,18 @@ import data from '../assets/texts.json';
 import './styles/editionText.css';
 
 export default () => (
-      <div className="editionText">
-        <div className="editionTitle">{data.pages.edition.pageSubtitle}</div>
-        <div className="editionCorpus">
-            <p>{data.pages.edition.edition_fig}</p>
-        </div>
-      </div>
-  );
+  <div className="editionText">
+    <div className="sideContainer">
+      <div className="editionTitle">{data.pages.edition.titleLeft}</div>
+      <div className="editionCorpus">
+            <div>{data.pages.edition.contentLeft}</div>
+          </div>
+    </div>
+    <div>
+      <div className="editionTitle">{data.pages.edition.titleRight}</div>
+      <div className="editionCorpus">
+            <div>{data.pages.edition.contentRight}</div>
+          </div>
+    </div>
+  </div>
+);

@@ -1,9 +1,11 @@
 .shopDetailPres {
-    font-size: 15px;
+    font-size: 18px;
     width: 250px;
 }
 .detailDiv {
-    font-size: 15px;
+    font-size: 18px;
+    white-space: pre-line;
+
 }
 .shopDetailPicture {
     width: 25vw;
@@ -32,3 +34,19 @@
     font-size: 18px;
     font-family: 'Ecam-bold';
 }
+
+.fixedTitle {
+    position: fixed;
+    left: 4vw;
+    top: 60vh;
+}
+.shopIssueNumber > span,
+.shopIssueNumber {
+    font-size: 55px;
+    font-family: 'Ecam-Bold'   
+}
+
+.shopIssueNumber > span {
+    border-bottom: 4px solid black;
+}
+

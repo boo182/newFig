@@ -17,7 +17,7 @@ export default class IssueDetails extends Component {
   setSummary = () => {
     const { name } = this.props;
     const datas = data.pages[name].summary;
-    return datas.map(item => <p className="summaryItem" key={item}>{item}</p>)
+    return datas.map(item => <div className="summaryItem" key={item}>{item}</div>)
   }
 
   render() {
@@ -27,24 +27,25 @@ export default class IssueDetails extends Component {
         <div className="columnsContainer">
 
           <div className="description">
-            <div className="header">{details.issueNumber}</div>
+            <div className="issueDetailHeader">{details.issueNumber}</div>
             <div className="figureDeStyle">
-              <p>{data.random.figureDeStyle}</p>
-              <p>{details.definition}</p>
+              <div className="sectionTitle">{data.random.figureDeStyle}</div>
+              <div>{details.definition}</div>
             </div>
             <div className="presentation">
-              <p>{data.random.presentationSummary}</p>
-              <p>{details.presentation}</p>
-            </div>
-            <div className="detail">
-                {this.setDescription()}
+              <div className="sectionTitle">{data.random.presentationSummary}</div>
+              <div>{details.presentation}</div>
             </div>
           </div>
 
           <div className="summary">
-          <div>{data.random.summary}</div>
+            <div className="detail">
+                  {this.setDescription()}
+            </div>
+          <div className="sectionTitle">{data.random.summary}</div>
            {this.setSummary()}
           </div>
+          
         </div> 
       </div>
     )

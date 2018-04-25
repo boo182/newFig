@@ -17,17 +17,23 @@ export default class Menu extends Component {
     }
 
     componentWillMount () {
-    if (this.props.actualPage === 'issues') this.setState({ displayOrderDiv: true });
-    console.log(this.props.actualPage);
+    if (this.props.actualPage === 'issues') {
+        this.setState({ displayOrderDiv: true });
+    }
+
     if (this.props.actualPage === '') this.setState({ displayOrderDiv: false });
 
     this.resizeEvent = Rx.Observable.fromEvent(window, 'resize')
-        .subscribe(() => this.setState({ displayOrderDiv: window.innerWidth >= 1140 || false }))
+        .subscribe(() => this.setState({ displayOrderDiv: window.innerWidth <= 1140 || false }))
+    }
+    componentWillReceiveProps (nextProps) {
+        if (nextProps.actualPage === 'issues') {
+            this.setState({ displayOrderDiv: true });
+        }
     }
 
-
   render() {
-    
+    console.log(this.props);
     const {showList, showContact} = this.state;
     return (
       <div className="menuWrapper">
@@ -85,7 +91,7 @@ export default class Menu extends Component {
         {(showContact && showList) && <ContactList />}
         </div>
         {this.state.displayOrderDiv && <div className="orderIssue">
-            {<OrderIssue  />}
+            {<OrderIssue  issue={this.props.issue}/>}
         </div>}
       </div>
     )

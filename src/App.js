@@ -14,11 +14,14 @@ import IssueDetail from './Container/IssueDetail';
 class App extends Component {
   state = {
     actualPage: '',
+    issue: '',
   }
   
    getActualPage = (page) => {
-     console.log(page);
      this.setState({ actualPage: page });
+   }
+   getIssue = (issue) => {
+     this.setState({ issue })
    }
 
 
@@ -27,7 +30,7 @@ class App extends Component {
     return (
         <Router>
               <div className="App">
-                  <Menu className="menu" actualPage={this.state.actualPage}/>
+                  <Menu className="menu" actualPage={this.state.actualPage} issue={this.state.issue}/>
                   <div className="Content">
                     <Route path="/" exact
                       render={(params) =>
@@ -51,7 +54,7 @@ class App extends Component {
                     </Route>
                     <Route path="/issues/:issue"
                       render={(params) =>
-                        <IssueDetail params={params} getActualPage={this.getActualPage} />
+                        <IssueDetail params={params} getActualPage={this.getActualPage} getIssue={this.getIssue} />
                       }>
                     </Route>
                     <Route path="/librairies"

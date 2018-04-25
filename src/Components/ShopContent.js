@@ -15,7 +15,7 @@ export default class ShopContent extends Component {
     const shop = shopImages.map((item, index) => {
     const datas = data.pages[item.name];
     return (
-        <NavLink to={`/issues/${item.name}`} key={`item-${index}`} onClick={() => this.props.showOrderButton(true)}>
+        <NavLink to={`/issues/${item.name}`} key={`item-${index}`}>
             <div  id={`image${index}`} onClick={() =>
                 this.setState({ issueToDisplay: item.name })}>
                 <div className="hoveredImg" >

@@ -21,15 +21,11 @@
     },
     "pages": {
         "edition": {
-            "edition_fig": "sjwdhfgqkjsgfkjqhsgfkjhqsg,\n consectetur\n adipiscing elit. Ut arcu felis,\n\nelementum eget maximus at, suscipit vel orci. Nulla urna metus, placerat sed mauris tincidunt, maximus porta urna. Praesent turpis enim, dignissim sit amet dictum sit amet, sagittis a ante. Nullam felis augue, interdum et ornare ultrices, elementum ut nisi. Aliquam ligula urna, volutpat eget risus in, posuere interdum ante. Nullam sed risus sed ex pellentesque vestibulum vel et sem. Aenean id efficitur mi. Suspendisse vel dictum dui. Donec eu odio id velit cursus commodo. Phasellus finibus ipsum imperdiet ultrices tristique. Suspendisse felis justo, condimentum a ullamcorper at, laoreet in dolor. Curabitur vehicula justo nec leo pulvinar, tincidunt volutpat orci consectetur. Proin interdum maximus metus, eget laoreet dolor luctus id. Fusce et quam eu metus aliquet pulvinar. Integer quis velit et diam condimentum consectetur. Quisque est massa, mattis sed tempus ut, tincidunt pharetra arcu. Mauris sed tincidunt ante, at sollicitudin nunc. Vestibulum sed nunc at dui elementum posuere. Integer nibh nisi, congue in eros a, molestie egestas libero. Nulla facilisi. Morbi at tristique sapien, vitae blandit erat. Pellentesque suscipit elit at tellus imperdiet, eu dapibus arcu sodales. Morbi pharetra aliquam risus, quis feugiat risus maximus vel",
             "pageTitle": "édition fig.",
-            "texts": {
-                "titleLeft": "la revue",
-                "titleRight": "éditer",
-                "contentLeft": "La revue fig. est une revue d’architecture qui ne parle pas seulement d’architecture.\nC’est un support imprimé qui permet d’expérimenter et d’interroger l’espace, la ville, le paysage, le chantier et l’habiter. Son but est de livrer une critique architecturale innovante, plurielle, graphique et grammaticale, réunissant des positionnements artistiques, littéraires et philosophiques. fig., c’est une figure de style par numéro : l’architecture, au sens figuré, est celle qui interpelle l’imaginaire et transmet une émotion, une sensation, ou une idée.\nQuelles sont alors les figures de style de l’architecture ?\n\nFondée en 2015 en tant qu’outil de résistance politique, social et poétique, par une graphiste et un architecte, la revue emprunte le chemin perpendiculaire de l’édition indépendante, désireuse d’avancer sans partenaire idéologique. \n",
-                "contentRight": "La revue est portée par le collectif fig., ensemble amateur regroupant des architectes, artistes, écrivains et graphistes.Le collectif n’est pas figé, et se structure à partir de l’implication mouvante et bénévole de ses membres Il fait le choix d’éditer seul la revue, c’est à dire d’en assurer la reproduction, la publication et la diffusion. Cela étant dit, le collectif s’empare de la diffusion à son sens le plus large. Il nous importe d’investir l’espace papier et de retranscrire celui-ci à l’espace physique. Un numéro de fig. s’accompagne d’une ou plusieurs expositions où le contenu prend une forme nouvelle, grâce à la participation des auteurs pour proposer une oeuvre en lien avec leur publication. Ce temps de déambulation est propice à une lecture élargie des articles du numéro.\n\nÉditer est une affaire collective. C’est pourquoi nous sommes entourés de partenaires moraux précieux : (ajouter liens)\n-Les contributeurs\n-Les libraires\n-L’ENSASE (https://www.st-etienne.archi.fr/) \n-L’ESADSE (http://www.esadse.fr/fr/home/)\n-Longtype (https://www.long-type.com/), fonderie parisienne à l’origine de la fonte Ecam) \n-La Générale Nord Est (https://www.lagenerale.fr/)\n-La revue Sur-Mesure (http://www.revuesurmesure.fr)\n"
-            },
-            "pageSubtitle": "Revue indépendante de critique architecturale"
+            "titleLeft": "la revue",
+            "titleRight": "éditer",
+            "contentLeft": "La revue fig. est une revue d’architecture qui ne parle pas seulement d’architecture.\nC’est un support imprimé qui permet d’expérimenter et d’interroger l’espace, la ville, le paysage, le chantier et l’habiter. Son but est de livrer une critique architecturale innovante, plurielle, graphique et grammaticale, réunissant des positionnements artistiques, littéraires et philosophiques. fig., c’est une figure de style par numéro : l’architecture, au sens figuré, est celle qui interpelle l’imaginaire et transmet une émotion, une sensation, ou une idée.\nQuelles sont alors les figures de style de l’architecture ?\n\nFondée en 2015 en tant qu’outil de résistance politique, social et poétique, par une graphiste et un architecte, la revue emprunte le chemin perpendiculaire de l’édition indépendante, désireuse d’avancer sans partenaire idéologique. \n",
+            "contentRight": "La revue est portée par le collectif fig., ensemble amateur regroupant des architectes, artistes, écrivains et graphistes.Le collectif n’est pas figé, et se structure à partir de l’implication mouvante et bénévole de ses membres Il fait le choix d’éditer seul la revue, c’est à dire d’en assurer la reproduction, la publication et la diffusion. Cela étant dit, le collectif s’empare de la diffusion à son sens le plus large. Il nous importe d’investir l’espace papier et de retranscrire celui-ci à l’espace physique. Un numéro de fig. s’accompagne d’une ou plusieurs expositions où le contenu prend une forme nouvelle, grâce à la participation des auteurs pour proposer une oeuvre en lien avec leur publication. Ce temps de déambulation est propice à une lecture élargie des articles du numéro.\n\nÉditer est une affaire collective. C’est pourquoi nous sommes entourés de partenaires moraux précieux : (ajouter liens)\n-Les contributeurs\n-Les libraires\n-L’ENSASE (https://www.st-etienne.archi.fr/) \n-L’ESADSE (http://www.esadse.fr/fr/home/)\n-Longtype (https://www.long-type.com/), fonderie parisienne à l’origine de la fonte Ecam) \n-La Générale Nord Est (https://www.lagenerale.fr/)\n-La revue Sur-Mesure (http://www.revuesurmesure.fr)\n"
         },
         "boutique": {
             "pageTitle": "boutique"
@@ -56,7 +52,7 @@
         },
         "analepse": {
             "pageTitle": "analepse",
-            "issueNumber": "fig. 0",
+            "issueNumber": "fig. n°0",
             "number": "0",
             "definition": "Une analepse (du grec ancien analêpsis) est une figure de style qui consiste à effectuer un retour sur des évènements antérieurs au moment de la narration. Comme un retour en arrière, elle permet l’éclaircissement d’une situation ou un saut temporel dans la narration.",
             "presentation": "De la Faculdade de Arquitectura d’Alvaro Siza à Porto ou du projet de Vincent Mangeat du futur pont habité de Zaehringen à Fribourg, en passant par la reconversion de la Briqueterie de Philippe Prost à Paris, ce premier numéro conjugue le passé pour s’approprier le futur.",
@@ -65,7 +61,7 @@
                 "nombre de pages: 48 pages",
                 "nombre d’exemplaires: 110",
                 "prix de vente: 7euros",
-                "papiers: Spendorlux 80g et Arcoprint milk 70g et 250g de Fedrigoni",
+                "papiers: Spendorlux 80g et\n Arcoprint milk 70g et 250g de Fedrigoni",
                 "pages intérieures: impression numérique noir & blanc",
                 "couverture: sérigraphie",
                 "langue: français"
@@ -83,7 +79,7 @@
         },
         "prosopopee": {
             "pageTitle": "prosopopee",
-            "issueNumber": "fig. 1", 
+            "issueNumber": "fig. n°1", 
             "number": "1",
             "definition": "La prosopopée, du grec prosôpon (le visage) et poiein (faire, fabriquer), est une figure de style par laquelle l’auteur prête la parole à un absent ou à un être inanimé. Doter l’architecture d’un langage. Coller son oreille au mur. Écouter. Tels sont les enjeux qui gravitent autour des recherches effleurées dans ce numéro",
             "price": "7 euros",
@@ -93,7 +89,7 @@
                 "nombre de pages: 36 pages",
                 "nombre d’exemplaires: 160",                
                 "prix de vente: 7euros",
-                "papiers: Spendorlux 80g et 250g de Fedrigoni",
+                "papiers: Spendorlux 80g et\n 250g de Fedrigoni",
                 "pages intérieures: impression numérique noir & blanc",
                 "couverture: sérigraphie",
                 "langue: français"
@@ -110,7 +106,7 @@
         },
         "hypotytose": {
             "pageTitle": "hypotytose",
-            "issueNumber": "fig. 2",
+            "issueNumber": "fig. n°2",
             "number": "2",
             "price": "7 euros",
             "definition": "L’hypotypose (du grec ancien hupotupôsis, «ébauche, modèle») est une figure par laquelle l’auteur dessine un tableau sous les yeux du lecteur, à travers un discours descriptif vif",
@@ -120,7 +116,7 @@
                 "nombre de pages: 48 pages",
                 "nombre d’exemplaires : 110",
                 "prix de vente: 7euros",
-                "papiers: Arcoprint milk 70g et 250 g de Fedrigoni",
+                "papiers: Arcoprint milk 70g et\n 250 g de Fedrigoni",
                 "pages intérieures: impression numérique noir & blanc",
                 "couverture: sérigraphie",
                 "langue: français"
@@ -138,7 +134,7 @@
         },
         "paradoxe": {
             "pageTitle": "paradoxe",
-            "issueNumber": "fig. 3",
+            "issueNumber": "fig. n°3",
             "number": "3",
             "price": "16 euros",
             "definitition": "Un paradoxe, d’après l’étymologie (du grec paradoxos, « παράδοξος » : « contraire à l’opinion commune », de para : « contre », et doxa : « opinion »), est une idée ou une proposition à première vue surprenante ou choquante, c’est-à-dire allant contre le sens commun. En ce sens, le paradoxe désigne également une figure de style consistant à formuler, au sein d’un discours, une expression, généralement antithétique, qui va à l’encontre du sens commun.",
@@ -148,7 +144,7 @@
                 "nombre de pages: 48 pages",
                 "nombre d’exemplaires : 500",
                 "prix de vente: 16euros",
-                "papiers: Arcoprint milk 70 g et Sirio ultra black 115 g et 250 g de Fedrigoni",
+                "papiers: Arcoprint milk 70 g et\n Sirio ultra black 115 g et 250 g de Fedrigoni",
                 "pages impression offset noir & blanc",
                 "imprimeur : Art et caractère",
                 "langue: français"
@@ -168,7 +164,7 @@
         },
         "pleonasme": {
             "pageTitle": "pléonasme",
-            "issueNumber": "fig. 4",
+            "issueNumber": "fig. n°4",
             "number": "4",
             "price": "16 euros",
             "definition": "Un pléonasme (du grec πλεονασμός / pleonasmós, qui signifie d’abord «surcharge») est une figure de style par laquelle un terme ou une expression ajoute une répétition (consciente ou inconsciente) à ce qui a été énoncé.",
@@ -178,7 +174,7 @@
                 "nombre de pages: 156 pages",
                 "nombre d’exemplaires : 500",                
                 "prix de vente: 16euros",
-                "papiers : Coral Book White blanc 80g et Savile Row Tweed Extra White blanc 300g",
+                "papiers : Coral Book White blanc 80g et\n Savile Row Tweed Extra White blanc 300g",
                 "pages intérieures: impression offset noir & blanc",
                 "imprimeur : Art et caractère",                
                 "langue: français"
@@ -203,5 +199,4 @@
             ]
         }
     }  
-
 }

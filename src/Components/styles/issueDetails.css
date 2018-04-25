@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     width: 65vw;
-    margin-left: 50px;
 
 }
 .columnsContainer {
@@ -13,7 +12,7 @@
 .description {
     font-size: 18px;
     width: 30%;
-    margin-right: 5vw;
+    margin-right: 3vw;
 }
 .line {
     margin: 0px;
@@ -31,5 +30,23 @@
     padding-right: 5vw;
     margin-bottom: 20px;;
 }
+.issueDetailHeader {
+    font-size: 25px;
+    font-family: 'Ecam-Bold';
+}
+.sectionTitle {
+    font-size: 19px;
+    font-family: 'Ecam-Bold';
+}
+.presentation,
+.figureDeStyle {
+    margin-top: 20px;
+}
+.detail {
+    max-width: 300px;
+    margin-bottom: 20px;
+    white-space: pre-line;
+}
+
 
 

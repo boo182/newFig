@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 export default () => {
   return (
     <div className="issueOrdertWrapper">
-        <NavLink to="/" className="orderBolderFont">commander</NavLink>
+        <a href="https://revuefig.bigcartel.com/" className="orderBolderFont">commander</a>
     </div>
   )
 }

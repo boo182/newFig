@@ -12,18 +12,22 @@ export default class ShopIssueDetails extends Component {
     const { datas } = this.state;
     return (
       <div>
+        <div className="fixedTitle">
+          <div className="shopIssueNumber"><span>n</span>{`°${datas.number}`}</div>
+          <div className="shopIssueNumber">{datas.pageTitle}</div>          
+        </div>
         <div className="shopDetailWrapper">
          <div className="shopDetailPres">
-         <div className="shopIssuePresTitle">{`${datas.issueNumber} ${datas.pageTitle}`}</div>
-         <div>{datas.presentation}</div>
+          <div className="shopIssuePresTitle">{`${datas.issueNumber} ${datas.pageTitle}`}</div>
+          <div>{datas.presentation}</div>
          </div>
           
           <div className="middleColumn">
-          <Fragment>
-            <div>
-              {datas.details.map(item => <div key={item} className="detailDiv">{item}</div>)}
-            </div>
-          </Fragment>
+            <Fragment>
+              <div>
+                {datas.details.map(item => <div key={item} className="detailDiv">{item}</div>)}
+              </div>
+            </Fragment>
           </div>
           <div className="rightColumn">
             <img className="shopDetailPicture" src={this.state.image} alt={this.state.image} />

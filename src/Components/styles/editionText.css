@@ -13,14 +13,18 @@
     .editionText {    
         font-size: 0.17em;
         width:600px;
+        display: flex;
     }
     .editionTitle {
-        margin-bottom: 70px;
-        font-size: 1.8em;
-        font-weight: bolder;
+        margin-bottom: 20px;
+        font-size: 25px;
+        font-family: 'Ecam-Bold'
     }
     .editionCorpus {
         width: 400px;
         white-space: pre-line;
+    }
+    .sideContainer {
+        margin-right: 8vw;
     }
 }
