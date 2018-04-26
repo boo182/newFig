@@ -44,7 +44,7 @@ class App extends Component {
                       </Route>
                     <Route path="/collection"
                       render={(params) =>
-                        <Collection params={params} getActualPage={this.getActualPage} />
+                        <Collection params={params} getActualPage={this.getActualPage} getIssue={this.getIssue}/>
                       }>
                     </Route>
                     <Route path="/boutique"

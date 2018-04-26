@@ -27,8 +27,11 @@ export default class Menu extends Component {
         .subscribe(() => this.setState({ displayOrderDiv: window.innerWidth <= 1140 || false }))
     }
     componentWillReceiveProps (nextProps) {
-        if (nextProps.actualPage === 'issues') {
+        if (nextProps.actualPage === 'issues' || nextProps.actualPage === 'collection') {
             this.setState({ displayOrderDiv: true });
+        }
+        if (this.props.actualPage !== nextProps.actualPage) {
+            this.setState({ showContact: false })
         }
     }
 
@@ -38,7 +41,9 @@ export default class Menu extends Component {
     return (
       <div className="menuWrapper">
       <div className="menuSubWrapper">
-        <h3 className="menuHeader">numéro 3</h3>
+        <a href={`https://revuefig.bigcartel.com/product/fig-n4-pleonasme`} className="orderBolderFont">
+            <h3 className="menuHeader">numéro 4</h3>
+        </a>
         <div className="menuContainer">
             <div className="buttonContainer">
                 <button onClick={() => this.setState({ showList: !showList, showContact: showContact && false})}>
@@ -91,7 +96,7 @@ export default class Menu extends Component {
         {(showContact && showList) && <ContactList />}
         </div>
         {this.state.displayOrderDiv && <div className="orderIssue">
-            {<OrderIssue  issue={this.props.issue}/>}
+            {<OrderIssue issue={this.props.issue}/>}
         </div>}
       </div>
     )

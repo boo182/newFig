@@ -14,9 +14,11 @@ export default class Collection extends Component {
       this.resizeEvent = Rx.Observable.fromEvent(window, 'resize')
           .subscribe(() => this.setState({ displayCarousel: window.innerWidth >= 1140 || false }))
     }
-    setTitle = (title) => this.setState({issue: data.pages[title]}); 
-
-  render() {
+    setTitle = (title) => {
+      this.props.getIssue(title);
+      this.setState({issue: data.pages[title]});
+    } 
+   render() {
     const { issue } = this.state;
 
     return (

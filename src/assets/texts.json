@@ -75,7 +75,8 @@
                 "photographie\nMOREAU, Suzanne\nPerazica Do Monténégro",
                 "table ronde\nGRAIL, Hugo\nSchizophrénie\nTable ronde autour de 4 livres",
                 "entretien\nCHEVASSUS, Hugo\nCombat\nEntretien avec Pierre CHABARD, rédacteur en chef de la revue Criticat"
-            ]
+            ],
+            "bigCartel":"https://revuefig.bigcartel.com/product/fig-affiche"
         },
         "prosopopee": {
             "pageTitle": "prosopopee",
@@ -102,7 +103,8 @@
                 "photographie\nDaniel Fuchs\nDays are Pale\nMunich",
                 "position\nBenjamin Dos Santos\nMondes à la carte\nPour une cartographie",
                 "missive\nCarla Frick-Cloupet\nJ’écris ton nom\nMéthodes et permission"
-            ]
+            ],
+            "bigCartel":"https://revuefig.bigcartel.com/product/fig-affiche"            
         },
         "hypotytose": {
             "pageTitle": "hypotytose",
@@ -130,7 +132,8 @@
                 "récit\nNicolas Goubier\nCorps-Ville\nÀ propos de la course en ville",
                 "récit\nLéa Jeanjacques\nPaysage éprouvé\nMalin Head, Donegal, Irlande",
                 "récit\nOscar Barnay\nSur la route\nÀ propos de l’aire d’autoroute"
-            ]
+            ],
+            "bigCartel":"https://revuefig.bigcartel.com/product/fig-affiche"                        
         },
         "paradoxe": {
             "pageTitle": "paradoxe",
@@ -160,7 +163,8 @@
                 "pamphlet\nAmélie Tripoz\nAbécédaire du starchitecte\n",
                 "bande dessinée\nMartin Guillaumie\nLes toilettes de Plochingen Plonchingen. Allemagne\n",
                 "jeu vidéo\nBenjamin Dos Santos\nMachine qui rêve\n"
-            ]
+            ],
+            "bigCartel":"https://revuefig.bigcartel.com/product/fig-n3-paradoxe"             
         },
         "pleonasme": {
             "pageTitle": "pléonasme",
@@ -196,7 +200,8 @@
                 "Cinéma\nTill Lepêtre\nLumière-Décor\n",
                 "Bande dessinée\nJean Claude Paillasson\nKrazy kit\n",
                 "Diplôme Dihiya Aït Aoudia et Lucie Rossignol\nAlger retrouvée\nENSA Versailles\n"
-            ]
+            ],
+            "bigCartel": "https://revuefig.bigcartel.com/product/fig-n4-pleonasme"
         }
     }  
 }
