@@ -10,8 +10,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Route from 'react-router-dom/Route'
 import Bookstore from './Container/Bookstore';
 import IssueDetail from './Container/IssueDetail';
+import createBrowserHistory from 'history/createBrowserHistory'
 
-const history = createHistory();
+const history = createBrowserHistory();
 class App extends Component {
   state = {
     actualPage: '',
