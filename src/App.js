@@ -11,6 +11,7 @@ import Route from 'react-router-dom/Route'
 import Bookstore from './Container/Bookstore';
 import IssueDetail from './Container/IssueDetail';
 
+const history = createHistory();
 class App extends Component {
   state = {
     actualPage: '',
@@ -28,7 +29,7 @@ class App extends Component {
   render() {
   
     return (
-        <Router>
+        <Router history={history}>
               <div className="App">
                   <Menu className="menu" actualPage={this.state.actualPage} issue={this.state.issue}/>
                   <div className="Content">
