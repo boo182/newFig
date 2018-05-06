@@ -16,7 +16,7 @@ export default class ShopContent extends Component {
     const datas = data.pages[item.name];
     return (
         <NavLink to={`/issues/${item.name}`} key={`item-${index}`}>
-            <div  id={`image${index}`} onClick={() =>
+            <div  className="shopItem" id={`image${index}`} onClick={() =>
                 this.setState({ issueToDisplay: item.name })}>
                 <div className="hoveredImg" >
                     <div className="bigFont">n°<span>{datas.number}</span></div>
@@ -32,8 +32,8 @@ export default class ShopContent extends Component {
   render() {
     return (
       <div className="issueWrapper">
-            <div style={{ width: '400px', height: '200px' }}></div> 
-            {this.getIssues()}
+        <div className="emptySpot"></div> 
+        {this.getIssues()}
       </div>
     )
   }

@@ -33,20 +33,20 @@
         "librairies": {
             "pageTitle": "librairies",
             "adresses": [
-                { "city": "Bordeaux\n", "detail": "N’a qu’1 oeil\n19 Rue Bouquière\n33000 Bordeaux"},
-                { "city": "Clermond Ferrand\n", "detail": "SCOP Les Volcans\n80, Bd François Mitterrand\n63000 Clermont Ferrand"},
-                { "city": "Lyon\n", "detail": "Archipel\n21 place des Terreaux\n69001 Lyon"},
-                { "city": "Marseille\n", "detail": "Imbernon\n280, Boulevard Michelet\n13008 Marseille"},
-                { "city": "Marseille\n", "detail": "La Salle des Machines\nFriche la Belle de Mai 41 rue Jobin\n13003 MARSEILLE"},
-                { "city": "Nantes\n", "detail": "Vent d'Ouest au Lieu Unique\n2, rue de la biscuiterie\n44 000 Nantes"},
-                { "city": "Perpignan\n", "detail": "FILAF\n4 bis place Grétry\n66000 Perpignan"},
                 { "city": "Paris\n", "detail": "Librairie Yvon Lambert\n108, rue vieille du temple\n75003 Paris"},
                 { "city": "Paris\n", "detail": "ArchiLib\n49, boulevard de la Villette\n75010 Paris"},
                 { "city": "Paris\n", "detail": "Librairie le Cabanon\n122 Rue de Charenton,\n75012 Paris"},
                 { "city": "Paris\n", "detail": "La Galerie d'Architecture\n11 rue des blancs manteaux\n75004 Paris"},
                 { "city": "Paris\n", "detail": "Librairie Le Moniteur\n1, place du Trocadéro\n75016 Paris"},
                 { "city": "Paris\n", "detail": "Librairie Volume\n47, rue Notre-Dame de Nazareth\n75003 Paris"},
+                { "city": "Marseille\n", "detail": "Imbernon\n280, Boulevard Michelet\n13008 Marseille"},
+                { "city": "Marseille\n", "detail": "La Salle des Machines\nFriche la Belle de Mai 41 rue Jobin\n13003 MARSEILLE"},
                 { "city": "Saint-Étienne\n", "detail": "Lune et l'autre\n19 Rue Pierre Bérard\n42000 Saint-Étienne"},
+                { "city": "Bordeaux\n", "detail": "N’a qu’1 oeil\n19 Rue Bouquière\n33000 Bordeaux"},
+                { "city": "Clermond Ferrand\n", "detail": "SCOP Les Volcans\n80, Bd François Mitterrand\n63000 Clermont Ferrand"},
+                { "city": "Lyon\n", "detail": "Archipel\n21 place des Terreaux\n69001 Lyon"},
+                { "city": "Nantes\n", "detail": "Vent d'Ouest au Lieu Unique\n2, rue de la biscuiterie\n44 000 Nantes"},
+                { "city": "Perpignan\n", "detail": "FILAF\n4 bis place Grétry\n66000 Perpignan"},
                 { "city": "Strasbourg\n", "detail": "Quai des Brumes\n120, Grand'Rue\n67000 Strasbourg"}
             ]
         },
@@ -172,15 +172,15 @@
             "number": "4",
             "price": "16 euros",
             "definition": "Un pléonasme (du grec πλεονασμός / pleonasmós, qui signifie d’abord «surcharge») est une figure de style par laquelle un terme ou une expression ajoute une répétition (consciente ou inconsciente) à ce qui a été énoncé.",
-            "presentation": "(à compléter)",            
+            "presentation": "La diversité des voix qui s’élèvent dans ce quatrième numéro de fig. montre quelques possibilités de concevoir d’autres architectures et d’entendre d’autres récits, hors des logiques immobilières et culturelles actuelles essentiellement basées sur la spéculation et la rentabilité, auxquelles on donne encore trop de latitude.\nIl s’agit de mettre en relief les réactions populaires face à quelques redondances d’une technocratie inconséquente qui excelle, par son activité prédatrice, dans la dissolution des grands équilibres de la planète et dans la répétition de catastrophes – écologiques, sociales, morales.\nL’espace du pléonasme est un laboratoire efficace face à tant de dérèglements, en ce sens qu’il inspire à voir le verre à moitié plein ou à moitié vide. S’il est superflu, il est aussi gage de plénitude. La figure du pléonasme est à la fois redondance et effort. Au delà d’une connotation majoritairement négative portée par la logique de concision et d&#39;efficacité sur laquelle s’appuie la communication en général, le pléonasme tend vers une précision toujours plus accrue lorsqu’utilisé à bon escient.",            
             "details": [
                 "format: 190x255 mm",
                 "nombre de pages: 156 pages",
                 "nombre d’exemplaires : 500",                
                 "prix de vente: 16euros",
-                "papiers : Coral Book White blanc 80g et\n Savile Row Tweed Extra White blanc 300g",
-                "pages intérieures: impression offset noir & blanc",
-                "imprimeur : Art et caractère",                
+                "papiers : Savile Row Tweed Extra White\nBlanc 300 et Coral Book White 80g",
+                "pages intérieures: impression numérique HP indigo noir & blanc",
+                "imprimeur : Frazier, Paris",                
                 "langue: français"
             ],
             "summary": [

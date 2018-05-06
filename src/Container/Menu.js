@@ -36,7 +36,6 @@ export default class Menu extends Component {
     }
 
   render() {
-    console.log(this.props);
     const {showList, showContact} = this.state;
     return (
       <div className="menuWrapper">

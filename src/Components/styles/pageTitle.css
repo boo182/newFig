@@ -16,7 +16,18 @@
 .issueTitle {
     white-space: nowrap;
 }
-
+@media(max-width: 900px) {
+    .issueContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;     
+        font-size: 0.6em;
+        font-weight: bolder;
+    }
+    .issueLine {
+        display: none;
+    }
+}
 @media (min-width: 1140px) {
     .issueContainer {
         position: relative;        

@@ -3,6 +3,10 @@
     width: 400px;
     margin-left: 20px;
 }
+.emptySpot {
+    width: 400px;
+    height: 200px;
+}
 .hoveredImg:hover {
     opacity: 0.9;
 }
@@ -100,21 +104,55 @@
 
     @media (max-width: 1586px) {
         .shopItem {
-            width: 250px;
+            width: 300px;
             margin-left: 20px;
         }
         .hoveredImg {
-            width: 250px;
-            height: 167px;
+            width: 300px;
+            height: 200px;
         }
         .issueWrapper {
-            width: 90%;
             display: grid;
-            grid-template-columns: 33% 33% 33%;
-            grid-template-rows: 2fr 2fr;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 2fr 2fr 2fr;
             grid-template-areas:
-                "topLeft topCenter topRight"
-                "bottomLeft bottomCenter bottomRight"
+                "topLeft topCenter"
+                "topRight bottomLeft"
+                "bottomCenter bottomRight"
+        }
+        #image0 {
+          grid-area: topCenter;
+        }
+        #image1 {
+          grid-area: topRight;
+        }
+        #image2 {
+        grid-area: bottomLeft;
+        }
+        #image3 {
+        grid-area: bottomCenter;
+        }
+        #image4 {
+        grid-area: bottomRight;
+        }
+    }
+    @media (max-width: 900px) {
+
+
+        .emptySpot {
+            display: none;
+        }
+        .issueWrapper {
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto auto auto;
+            grid-template-areas:
+                "topCenter"
+                "topRight"
+                "bottomLeft"
+                "bottomCenter"
+                "bottomRight"
+                "topLeft"
         }
         #image0 {
           grid-area: topCenter;

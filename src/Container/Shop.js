@@ -16,14 +16,14 @@ export default class Shop extends Component {
     
   render() {
     return (
-        <div className="metaContainer">
-            <div className="pageTitleWrapper">
-                <PageTitle title={this.state.texts.pageTitle} />
-            </div>
-            <div className="shopContainer">
-                <ShopContent />
-            </div>
-     </div>
+    <div className="metaContainer">
+        <div className="pageTitleWrapper">
+            <PageTitle title={this.state.texts.pageTitle} />
+        </div>
+        <div className="shopContainer">
+            <ShopContent />
+        </div>
+    </div>
     )
   }
 }

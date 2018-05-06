@@ -17,3 +17,25 @@
     white-space: pre-line;
     margin-right: 10vw;    
 }
+
+@media (max-width: 900px)  {
+    .bookstoreContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bookstores {
+        margin-left: 5vw;
+        max-height: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 17vh;
+    }
+    
+    .bookstore {
+        font-size: 20px;
+        white-space: pre-line;
+        margin-right: 10vw;    
+    }
+}
