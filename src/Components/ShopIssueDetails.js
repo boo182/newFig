@@ -11,7 +11,7 @@ export default class ShopIssueDetails extends Component {
   render() {
     const { datas } = this.state;
     return (
-      <div>
+      <div className="shopIssueDetailContainer">
         <div className="fixedTitle">
           <div className="shopIssueNumber"><span>n</span>{`°${datas.number}`}</div>
           <div className="shopIssueNumber">{datas.pageTitle}</div>          
@@ -19,7 +19,7 @@ export default class ShopIssueDetails extends Component {
         <div className="shopDetailWrapper">
          <div className="shopDetailPres">
           <div className="shopIssuePresTitle">{`${datas.issueNumber} ${datas.pageTitle}`}</div>
-          <div>{datas.presentation}</div>
+          <div className="shopIssuePres">{datas.presentation}</div>
          </div>
           
           <div className="middleColumn">

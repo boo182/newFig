@@ -2,15 +2,11 @@
   .fig,
   .revue {
     font-family: 'Ecam-Bold';
-    z-index: 5;
+    z-index: 16;
     }
 
   .backgroundTitleWrapper {
-    transform: rotate(90deg);
-    position: fixed;
-    z-index: 1;
-    overflow: hidden;
-    top: 17vh;
+    display: none;
   }
   .subtitle {
     display: none;

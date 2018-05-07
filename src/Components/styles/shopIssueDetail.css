@@ -1,4 +1,5 @@
-.shopDetailPres {
+@media(min-width:900px){
+    .shopDetailPres {
     font-size: 18px;
     width: 250px;
 }
@@ -49,4 +50,34 @@
 .shopIssueNumber > span {
     border-bottom: 4px solid black;
 }
+}
 
+@media(max-width: 900px) {
+    .shopIssueDetailContainer {
+        margin-top: 25vh;
+    }
+    .fixedTitle {
+        display: none;
+    }
+    .shopDetailWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .shopIssuePres {
+        font-size: 16px;
+    }
+    .shopDetailPres {
+        width: 85vw;
+        font-size: 0.4em;
+    }
+    .detailDiv {
+        font-size: 16px;
+    }
+    .middleColumn {
+        margin-top: 30px;
+    }
+    .shopDetailPicture {
+        margin-top: 30px;
+        width: 95%;
+    }
+}
