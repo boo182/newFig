@@ -11,12 +11,15 @@ export default class ShopIssueDetails extends Component {
   
   render() {
     const { datas } = this.state;
+    console.log(`https://revuefig.bigcartel.com/product/fig-n${datas.number}-${datas.pageTitle}`)
     const image = this.generateImage()[0];
     return (
       <div className="shopIssueDetailContainer">
-        <div className="fixedTitle">
-          <div className="shopIssueNumber"><span>n</span>{`°${datas.number}`}</div>
-          <div className="shopIssueNumber">{datas.pageTitle}</div>          
+        <div style={{ display: 'flex', flexDirection: 'row' }}>
+          <div className="fixedTitle">
+            <div className="shopIssueNumber"><span>n</span>{`°${datas.number}`}</div>
+            <div className="shopIssueNumber">{datas.pageTitle}</div>          
+          </div>
         </div>
         <div className="shopDetailWrapper">
          <div className="shopDetailPres">
@@ -34,6 +37,13 @@ export default class ShopIssueDetails extends Component {
           <div className="rightColumn">
             <img className="shopDetailPicture" src={image.img} alt={this.state.image} />
           </div>
+            <a
+              href={datas.bigCartel}
+              style={{ fontSize: 25, fontFamily: 'Ecam-extraBold', marginBottom: 40 }}
+              className="orderIssueSmallDisplay"
+            >
+             commander
+            </a>
         </div>
       </div>
     );

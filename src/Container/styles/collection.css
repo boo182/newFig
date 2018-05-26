@@ -9,5 +9,14 @@
     z-index: 2;
 }
 
+@media (max-width: 1140px) {
+    .pageTitle {
+        position: static;
+        width: auto;
+        background-color: aqua;
+    }
+
+}
+
 
 

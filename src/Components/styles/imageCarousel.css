@@ -42,7 +42,7 @@ div {
     }
     .CarouselWrapper {
       overflow-y: scroll;
-      background-color: white;
+      margin-top: 17vw;
     }
     .verticalScroll {
       margin-top: 17vh;

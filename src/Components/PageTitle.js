@@ -11,7 +11,7 @@ export default class PageTitle extends Component {
               <div className="issueLine" />
               <div className="issueTitle">{this.props.title}</div>
             </div>
-          :<div className="issueContainer"> 
+          : <div className="issueContainer"> 
             <div className="issueTitle">{this.props.title}</div>
             <div className="issueLine" />
           </div>

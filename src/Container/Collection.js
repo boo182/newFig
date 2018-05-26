@@ -8,11 +8,16 @@ import * as Rx from 'rxjs';
 export default class Collection extends Component {
     state = {
         issue: data.pages.pleonasme,
+        isSmallScreen: false,
     }
     componentWillMount() {
+      this.setState({ isSmallScreen: window.innerWidth <= 1140 || false });
       this.props.getActualPage('collection');
       this.resizeEvent = Rx.Observable.fromEvent(window, 'resize')
-          .subscribe(() => this.setState({ displayCarousel: window.innerWidth >= 1140 || false }))
+          .subscribe(() => this.setState({ isSmallScreen: window.innerWidth <= 1140 || false }))
+    }
+    componentWillUnmount() {
+      this.resizeEvent.unsubscribe();
     }
     setTitle = (title) => {
       this.props.getIssue(title);
@@ -23,9 +28,13 @@ export default class Collection extends Component {
 
     return (
       <div className="collectionContainer">
-          <div className="pageTitle">
+          {this.state.isSmallScreen
+            ? <div className="pageTitle">
+              <PageTitle title='Collection' />
+              </div>
+            : <div className="pageTitle">
             <PageTitle title={issue.pageTitle} number={issue.number}/>
-          </div>
+          </div>}
           <ImageCarousel setTitle={this.setTitle}/>
       </div>
     )

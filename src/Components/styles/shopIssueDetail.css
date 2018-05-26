@@ -1,4 +1,4 @@
-@media(min-width:900px){
+@media(min-width: 1140px){
     .shopDetailPres {
     font-size: 18px;
     width: 250px;
@@ -6,7 +6,9 @@
 .detailDiv {
     font-size: 18px;
     white-space: pre-line;
-
+}
+.orderIssueSmallDisplay {
+    display: none;
 }
 .shopDetailPicture {
     width: 25vw;
@@ -52,9 +54,12 @@
 }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 1140px) {
     .shopIssueDetailContainer {
         margin-top: 25vh;
+    }
+    .orderIssueSmallDisplay {
+        display: block;
     }
     .fixedTitle {
         display: none;
