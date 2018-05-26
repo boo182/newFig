@@ -75,18 +75,18 @@ export default class ImageCarousel extends Component {
                     if(typeof item === 'object') {
                         return <div className="details" key={`${item}-index`}>{item}</div>
                     }
-                    return (<div>
-                        <img className="issueImages" key={item} src={item} alt={item} />
+                    return (<div key={item}>
+                        <img className="issueImages" src={item} alt={item} />
                     </div>)
 
                   }
                 )}
             </Slider>
             
-            <div class="verticalScroll">
+            <div className="verticalScroll">
                 {smallScreenImages.map((item, index) => {
                         return (
-                        <NavLink to={`/issues/${item.name}`} key={`item-${index}`} >
+                        <NavLink to={`/issues/${item.name}`} key={`item-${item.name}`} >
                             <div>    
                                 <img className="smallDisplayImages" key={item.name} src={item.img} alt={item.img} />
                             </div>

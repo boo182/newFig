@@ -1,21 +1,4 @@
 
-/* .issueContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;     
-    font-size: 1.3em;
-    font-weight: bolder;
-}
-
-.issueLine {
-    width: 30px;
-    height: 3px;
-    background-color: black;
-    align-self: flex-end;
-}
-.issueTitle {
-    white-space: nowrap;
-} */
 @media(max-width: 1140px) {
     .issueContainer {
         display: flex;
