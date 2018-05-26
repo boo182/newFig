@@ -1,27 +1,10 @@
 import React, { Component, Fragment } from 'react';
 import './styles/imagesScroll.css';
 
-import { analepse } from '../assets/images/images';
-import { hypotytose } from '../assets/images/images';
-import { prosopopee } from '../assets/images/images';
+import { homePics } from '../assets/images/images';
 
 export default class ImagesScroll extends Component {
-    getImages = () => {
-        const { pictures } = this.props;
-
-        if(pictures === 'analepse') {
-          return analepse;
-        }
-        if(pictures === 'hypotytose') {
-          return hypotytose;
-        }
-        if(pictures === 'prosopopee') {
-          return prosopopee;
-        }
-        if(pictures === 'home') {
-            return analepse.concat(hypotytose, prosopopee);
-        }
-      }
+    
   imageBlock = (images) => {
     let array = [];
     let subArray = [];
@@ -38,7 +21,7 @@ export default class ImagesScroll extends Component {
      return array;
   }    
   render() {
-      const images = this.imageBlock(this.getImages());
+      const images = this.imageBlock(homePics);
    
     return (
       <div className="imageScrollWrapper" style={{ width: this.props.width }}>

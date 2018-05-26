@@ -3,12 +3,14 @@
 div {
   outline: none;
 }
+
 .CarouselWrapper {
     height: 100vh;
     width: 100vw;
     z-index: 1000;
     position: fixed;
     top: 10vh;
+    overflow: scroll;
 }
 .details {
     margin: none;
@@ -21,7 +23,7 @@ div {
 .slick-slide img {
     display: block;
     margin: auto;
-    width: 60%;
+    width: 55%;
     
 }
 .slick-slide img.slick-loading {
@@ -30,9 +32,33 @@ div {
 .slick-dots {
     margin-left: 0;
 }
+.verticalScroll {
+  display: none;
+}
 
-
-  @media (max-width: 768px) {
+  @media (max-width: 1140px) {
+    .slider {
+      display: none;
+    }
+    .CarouselWrapper {
+      overflow-y: scroll;
+      background-color: white;
+    }
+    .verticalScroll {
+      margin-top: 17vh;
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+      padding-bottom: 10vh;
+    }
+    .smallDisplayImages{
+      width: 90vw;
+    }
+  }
+  /* @media (max-width: 768px) {
+    .CarouselWrapper {
+      overflow-y: scroll;
+    }
     h3 {
       font-size: 24px;
     }
@@ -50,7 +76,7 @@ div {
       transform: scale(0.95);
       transition: all 300ms ease;
     }
-  }
+  } */
   .slick-vertical .slick-slide {
     height: 180px;
   }

@@ -1,5 +1,5 @@
 
-.issueContainer {
+/* .issueContainer {
     display: flex;
     flex-direction: column;
     align-items: flex-end;     
@@ -15,8 +15,8 @@
 }
 .issueTitle {
     white-space: nowrap;
-}
-@media(max-width: 900px) {
+} */
+@media(max-width: 1140px) {
     .issueContainer {
         display: flex;
         flex-direction: column;

@@ -42,7 +42,7 @@
     @media (min-width: 1830px) {
         .hoveredImg {    
             width: 400px;
-            height: 266.5px;
+            height: 301px;
         }
         .issueWrapper {
             display: grid;
@@ -75,7 +75,7 @@
         }
         .hoveredImg {
             width: 300px;
-            height: 200px;
+            height: 226px;
         }
         .issueWrapper {
             display: grid;
@@ -109,7 +109,7 @@
         }
         .hoveredImg {
             width: 300px;
-            height: 200px;
+            height: 226px;
         }
         .issueWrapper {
             display: grid;

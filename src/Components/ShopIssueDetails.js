@@ -6,10 +6,12 @@ import './styles/shopIssueDetail.css';
 export default class ShopIssueDetails extends Component {
   state = {
     datas: data.pages[this.props.issue],
-    image: images[this.props.issue][0],
   }
+  generateImage = () => images.shopImages.filter(item => item.name === this.props.issue);
+  
   render() {
     const { datas } = this.state;
+    const image = this.generateImage()[0];
     return (
       <div className="shopIssueDetailContainer">
         <div className="fixedTitle">
@@ -30,7 +32,7 @@ export default class ShopIssueDetails extends Component {
             </Fragment>
           </div>
           <div className="rightColumn">
-            <img className="shopDetailPicture" src={this.state.image} alt={this.state.image} />
+            <img className="shopDetailPicture" src={image.img} alt={this.state.image} />
           </div>
         </div>
       </div>

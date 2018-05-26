@@ -3,8 +3,14 @@ import "./styles/imageCarousel.css";
 import * as images  from '../assets/images/images';
 import Slider from "react-slick";
 import IssueDetails from './IssueDetails';
+import { NavLink } from 'react-router-dom';
+
 
 export default class ImageCarousel extends Component {
+    state = {
+        displayDetails: false,
+        issue: 0,
+    }
 
     getIssues = () => {
         const analepse = images.analepse;
@@ -42,18 +48,30 @@ export default class ImageCarousel extends Component {
         
     }
 
+    smallScreenDisplayer = () => {
+        const analepse = { img: images.analepse[0], name: 'analepse', number: 0 };
+        const hypotytose = { img: images.hypotytose[0], name: 'hypotytose', number: 1 };
+        const prosopopee = { img: images.prosopopee[0], name: 'prosopopee', number: 2 };
+        const pleonasme = { img: images.pleonasme[0], name: 'pleonasme', number: 3 };
+        const paradoxe = { img: images.paradoxe[0], name: 'paradoxe', number: 4 };
+        return [analepse, prosopopee, hypotytose, paradoxe, pleonasme];
+    }
+
   render() {
       const images = this.getIssues();
+      const smallScreenImages = this.smallScreenDisplayer();
+
       var settings = {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
       };
+      
     return (
         <div className="CarouselWrapper">
             <Slider {...settings} className="slider" afterChange={e => this.afterChange(e)}>
-                {images.map((item, index) =>{
+                {images.map((item, index) => {
                     if(typeof item === 'object') {
                         return <div className="details" key={`${item}-index`}>{item}</div>
                     }
@@ -61,9 +79,22 @@ export default class ImageCarousel extends Component {
                         <img className="issueImages" key={item} src={item} alt={item} />
                     </div>)
 
-                }
+                  }
                 )}
             </Slider>
+            
+            <div class="verticalScroll">
+                {smallScreenImages.map((item, index) => {
+                        return (
+                        <NavLink to={`/issues/${item.name}`} key={`item-${index}`} >
+                            <div>    
+                                <img className="smallDisplayImages" key={item.name} src={item.img} alt={item.img} />
+                            </div>
+                        </NavLink>
+                        )
+                      }
+                    )}
+            </div>
         </div>
     )
   }
