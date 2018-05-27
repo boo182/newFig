@@ -40,6 +40,7 @@ class App extends Component {
                       render={(params) =>
                         <Home params={params} getActualPage={this.getActualPage} />
                       }>
+                      
                     </Route>
                     <Route path="/home" exact
                       render={(params) =>
