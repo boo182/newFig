@@ -1,5 +1,5 @@
 @media(min-width: 1140px){
-    .shopDetailPres {
+.shopDetailPres {
     font-size: 18px;
     width: 250px;
 }
@@ -36,6 +36,10 @@
 .shopIssuePresTitle {
     font-size: 18px;
     font-family: 'Ecam-bold';
+}
+.shopDetailPres {
+    max-height: 400px;
+    overflow: scroll;
 }
 
 .fixedTitle {

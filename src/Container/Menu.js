@@ -14,6 +14,7 @@ export default class Menu extends Component {
         showList: false,
         showContact: false,
         displayOrderDiv: true,
+        smallScreen: window.innerWidth <= 1140 || false,
     }
 
     componentWillMount () {
@@ -24,8 +25,12 @@ export default class Menu extends Component {
     if (this.props.actualPage === '') this.setState({ displayOrderDiv: false });
 
     this.resizeEvent = Rx.Observable.fromEvent(window, 'resize')
-        .subscribe(() => this.setState({ displayOrderDiv: window.innerWidth <= 1140 || false }))
+        .subscribe(() => this.setState({
+            displayOrderDiv: window.innerWidth <= 1140 || false,
+            smallScreen: window.innerWidth <= 1140 || false
+        }))
     }
+
     componentWillReceiveProps (nextProps) {
         if (nextProps.actualPage === 'issues' || nextProps.actualPage === 'collection') {
             this.setState({ displayOrderDiv: true });
@@ -34,9 +39,29 @@ export default class Menu extends Component {
             this.setState({ showContact: false })
         }
     }
+    render() {
+        const { showList, showContact, smallScreen } = this.state;
+        let contactPage;
 
-  render() {
-    const {showList, showContact} = this.state;
+        if (smallScreen) {
+            contactPage = (
+                <li>
+                    <NavLink
+                        to="/contacts"
+                        activeStyle={activeStyle}
+                        onClick={() => this.setState({ displayOrderDiv: false })}>
+                    contacts
+                    </NavLink>
+                </li>)
+        } else {
+            contactPage = (
+                <li
+                onClick={() => this.setState({ showContact: !showContact })}
+                style={showContact ? activeStyle : null}
+                >
+                contact
+                </li>);
+        }
 
     return (
       <div className="menuWrapper">
@@ -66,14 +91,14 @@ export default class Menu extends Component {
                             onClick={() => this.setState({ displayOrderDiv: false })}
                             activeStyle={activeStyle}>édition fig</NavLink>
                     </li>
-                    <li>
+                    {!smallScreen && <li>
                         <NavLink
                           to="/collection"
                           activeStyle={activeStyle}
                           onClick={() => this.setState({ displayOrderDiv: true })}>
                             numéros
                         </NavLink>
-                    </li>
+                    </li>}
                     <li>
                         <NavLink
                           to="/boutique"
@@ -90,16 +115,11 @@ export default class Menu extends Component {
                             librairies
                         </NavLink>
                     </li>
-                    <li
-                      onClick={() => this.setState({ showContact: !showContact })}
-                      style={showContact ? activeStyle : null}
-                    >
-                        contact
-                    </li>                
+                      {contactPage}
                 </ul>
             </div>}
         </div>
-        {(showContact && showList) && <ContactList />}
+    {(!smallScreen && showContact && showList) && <ContactList />}
         </div>
         {this.state.displayOrderDiv && <div className="orderIssue">
             {<OrderIssue issue={this.props.issue}/>}

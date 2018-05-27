@@ -21,7 +21,7 @@ export default class Bookstore extends Component {
             </div>
             <div className="bookstores">
                 {data.pages.librairies.adresses.map(item =>
-                    <p className="bookstore"><b>{item.city}</b>{item.detail}</p>
+                    <p className="bookstore" key={item}><b>{item.city}</b>{item.detail}</p>
                 )}
             </div>
         </div>

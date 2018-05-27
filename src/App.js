@@ -11,6 +11,7 @@ import Route from 'react-router-dom/Route'
 import Bookstore from './Container/Bookstore';
 import IssueDetail from './Container/IssueDetail';
 import createBrowserHistory from 'history/createBrowserHistory'
+import ContacListSmallScreen from './Components/ContacListSmallScreen';
 
 const history = createBrowserHistory();
 
@@ -68,6 +69,11 @@ class App extends Component {
                     <Route path="/librairies" exact
                       render={(params) =>
                         <Bookstore params={params} getActualPage={this.getActualPage} />
+                      }>
+                    </Route>
+                    <Route path="/contacts" exact
+                      render={(params) =>
+                        <ContacListSmallScreen />
                       }>
                     </Route>
                   </div>

@@ -11,7 +11,6 @@ export default class ShopIssueDetails extends Component {
   
   render() {
     const { datas } = this.state;
-    console.log(`https://revuefig.bigcartel.com/product/fig-n${datas.number}-${datas.pageTitle}`)
     const image = this.generateImage()[0];
     return (
       <div className="shopIssueDetailContainer">

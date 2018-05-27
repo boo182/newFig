@@ -1,6 +1,5 @@
 import React from 'react'
 import './styles/orderIssue.css';
-import { NavLink } from 'react-router-dom'; 
 import datas from '../assets/texts.json';
 
 export default ({ issue }) => {

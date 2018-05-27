@@ -13,7 +13,10 @@
     .pageTitle {
         position: static;
         width: auto;
-        background-color: aqua;
+    }
+
+    .collectionContainer {
+        display: flex;
     }
 
 }
