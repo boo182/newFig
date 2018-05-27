@@ -37,6 +37,7 @@ export default class Menu extends Component {
 
   render() {
     const {showList, showContact} = this.state;
+
     return (
       <div className="menuWrapper">
       <div className="menuSubWrapper">
@@ -53,6 +54,12 @@ export default class Menu extends Component {
             </div>
         {showList && <div className="options">
                 <ul className="list">
+                    <li>
+                        <NavLink
+                            to="/home"
+                            onClick={() => this.setState({ displayOrderDiv: false })}
+                            activeStyle={activeStyle}>fig</NavLink>
+                    </li>
                     <li>
                         <NavLink
                             to="/edition"

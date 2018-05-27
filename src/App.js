@@ -13,6 +13,7 @@ import IssueDetail from './Container/IssueDetail';
 import createBrowserHistory from 'history/createBrowserHistory'
 
 const history = createBrowserHistory();
+
 class App extends Component {
   state = {
     actualPage: '',
@@ -34,7 +35,12 @@ class App extends Component {
               <div className="App">
                   <Menu className="menu" actualPage={this.state.actualPage} issue={this.state.issue}/>
                   <div className="Content">
-                    <Route path="/" exact
+                  <Route path="/" exact
+                      render={(params) =>
+                        <Home params={params} getActualPage={this.getActualPage} />
+                      }>
+                    </Route>
+                    <Route path="/home" exact
                       render={(params) =>
                         <Home params={params} getActualPage={this.getActualPage} />
                       }>
@@ -44,22 +50,22 @@ class App extends Component {
                         <Edition params={params} getActualPage={this.getActualPage} />
                       }>
                       </Route>
-                    <Route path="/collection"
+                    <Route path="/collection" exact
                       render={(params) =>
                         <Collection params={params} getActualPage={this.getActualPage} getIssue={this.getIssue}/>
                       }>
                     </Route>
-                    <Route path="/boutique"
+                    <Route path="/boutique" exact
                       render={(params) =>
                         <Shop params={params} getActualPage={this.getActualPage} />
                       }>
                     </Route>
-                    <Route path="/issues/:issue"
+                    <Route path="/issues/:issue" exact
                       render={(params) =>
                         <IssueDetail params={params} getActualPage={this.getActualPage} getIssue={this.getIssue} />
                       }>
                     </Route>
-                    <Route path="/librairies"
+                    <Route path="/librairies" exact
                       render={(params) =>
                         <Bookstore params={params} getActualPage={this.getActualPage} />
                       }>

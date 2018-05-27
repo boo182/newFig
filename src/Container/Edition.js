@@ -12,7 +12,7 @@ state = {
 
 componentWillMount() {
     this.props.getActualPage('edition');
-  }
+}
 
 render() {
       
