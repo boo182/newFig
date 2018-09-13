@@ -14,7 +14,7 @@
         background-color: white;
     }
 }
-@media (min-width: 1140px) {
+@media screen and (min-width: 1140px) {
     .issueContainer {
         position: relative;        
         transform: rotate(180deg);
@@ -26,6 +26,7 @@
         font-weight: bolder;
         font-size: 0.8em;
         margin-right: 80px;
+        min-width: 80px;
     }
     .issueLine {
         width: 3px;
