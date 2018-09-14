@@ -4,7 +4,7 @@ import data from '../assets/texts';
 
 
 export default class IssueDetails extends Component {
-  
+
   getDetails = () => {
     const { name } = this.props;
     return data.pages[name];
@@ -45,8 +45,8 @@ export default class IssueDetails extends Component {
           <div className="sectionTitle">{data.random.summary}</div>
            {this.setSummary()}
           </div>
-          
-        </div> 
+
+        </div>
       </div>
     )
   }

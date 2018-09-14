@@ -6,7 +6,7 @@ import Menu from './Container/Menu';
 import Shop from './Container/Shop';
 import TitleBackground from './Components/TitleBackground';
 import Collection from './Container/Collection'
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Router } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import Bookstore from './Container/Bookstore';
 import IssueDetail from './Container/IssueDetail';

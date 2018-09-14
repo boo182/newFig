@@ -73,7 +73,7 @@ export default class ImageCarousel extends Component {
             <Slider {...settings} className="slider" afterChange={e => this.afterChange(e)}>
                 {images.map((item, index) => {
                     if(typeof item === 'object') {
-                        return <div className="details" key={`${item}-${index}`}>{item}</div>
+                        return <div className="details" key={`${index}`}>{item}</div>
                     }
                     return (<div key={item}>
                         <img className="issueImages" src={item} alt={item} />
@@ -85,10 +85,10 @@ export default class ImageCarousel extends Component {
             
             <div className="verticalScroll">
                 {smallScreenImages.map((item, index) => {
-                        return (
-                        <NavLink to={`/issues/${item.name}`} key={`item-${item.name}-${index}`} >
-                            <div key={`item-${item.name}-${index}`}>    
-                                <img className="smallDisplayImages" key={item.name} src={item.img} alt={item.img} />
+                    return (
+                        <NavLink to={`/issues/${item.name}`} key={`item-${item.img}-${index}`} >
+                            <div>
+                                <img className="smallDisplayImages" src={item.img} alt={item.img} />
                             </div>
                         </NavLink>
                         )

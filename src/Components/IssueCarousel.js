@@ -40,7 +40,7 @@ export default class IssueCarousel extends Component {
     return (
         <Carousel showArrows={false} className="carouselContainer" {...carouselOptions}>
           {this.getImages().map((article, index) =>
-            <img src={article} className="carouselPictures"/>)}
+            <img src={article} key={article} className="carouselPictures"/>)}
         </Carousel>
     )
   }
