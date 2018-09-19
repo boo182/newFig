@@ -1,3 +1,4 @@
+
 @media(min-width: 1140px){
 .shopDetailPres {
     font-size: 18px;
@@ -6,6 +7,9 @@
 .detailDiv {
     font-size: 18px;
     white-space: pre-line;
+}
+.detailDiv > span {
+    font-family: 'Ecam-ExtraLight'
 }
 .orderIssueSmallDisplay {
     display: none;
@@ -50,7 +54,7 @@
 .shopIssueNumber > span,
 .shopIssueNumber {
     font-size: 55px;
-    font-family: 'Ecam-Bold'   
+    font-family: 'Ecam-Bold'
 }
 
 .shopIssueNumber > span {
@@ -81,6 +85,9 @@
     }
     .detailDiv {
         font-size: 16px;
+    }
+    .detailDiv > span {
+        font-family: 'Ecam-ExtraLight'
     }
     .middleColumn {
         margin-top: 30px;

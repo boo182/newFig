@@ -30,11 +30,11 @@ export default class IssueDetails extends Component {
             <div className="issueDetailHeader">{details.issueNumber}</div>
             <div className="figureDeStyle">
               <div className="sectionTitle">{data.random.figureDeStyle}</div>
-              <div>{details.definition}</div>
+              <div style={{ width: 300 }}>{details.definition}</div>
             </div>
             <div className="presentation">
               <div className="sectionTitle">{data.random.presentationSummary}</div>
-              <div>{details.presentation}</div>
+              <div style={{ width: 300 }}>{details.presentation}</div>
             </div>
           </div>
 

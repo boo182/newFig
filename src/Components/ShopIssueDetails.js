@@ -8,7 +8,7 @@ export default class ShopIssueDetails extends Component {
     datas: data.pages[this.props.issue],
   }
   generateImage = () => images.shopImages.filter(item => item.name === this.props.issue);
-  
+
   render() {
     const { datas } = this.state;
     const image = this.generateImage()[0];
@@ -17,7 +17,7 @@ export default class ShopIssueDetails extends Component {
         <div style={{ display: 'flex', flexDirection: 'row' }}>
           <div className="fixedTitle">
             <div className="shopIssueNumber"><span>n</span>{`°${datas.number}`}</div>
-            <div className="shopIssueNumber">{datas.pageTitle}</div>          
+            <div className="shopIssueNumber">{datas.pageTitle}</div>
           </div>
         </div>
         <div className="shopDetailWrapper">
@@ -25,11 +25,14 @@ export default class ShopIssueDetails extends Component {
           <div className="shopIssuePresTitle">{`${datas.issueNumber} ${datas.pageTitle}`}</div>
           <div className="shopIssuePres">{datas.presentation}</div>
          </div>
-          
+
           <div className="middleColumn">
             <Fragment>
               <div>
-                {datas.details.map(item => <div key={item} className="detailDiv">{item}</div>)}
+                {datas.shopDetails.map(item =>
+                  <div key={item} className="detailDiv">
+                    {item.title}<span style={{ fontSize: '16px'}}>{item.value}</span>
+                  </div>)}
               </div>
             </Fragment>
           </div>
