@@ -9,7 +9,7 @@
     white-space: pre-line;
 }
 .detailDiv > span {
-    font-family: 'Ecam-ExtraLight'
+    color: grey;
 }
 .orderIssueSmallDisplay {
     display: none;

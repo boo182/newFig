@@ -33,20 +33,20 @@
         "librairies": {
             "pageTitle": "librairies",
             "adresses": [
+                { "city": "Bordeaux\n", "detail": "N’a qu’1 oeil\n19 Rue Bouquière\n33000 Bordeaux"},
+                { "city": "Clermond Ferrand\n", "detail": "SCOP Les Volcans\n80, Bd François Mitterrand\n63000 Clermont Ferrand"},
+                { "city": "Lyon\n", "detail": "Archipel\n21 place des Terreaux\n69001 Lyon"},
+                { "city": "Marseille\n", "detail": "Imbernon\n280, Boulevard Michelet\n13008 Marseille"},
+                { "city": "Marseille\n", "detail": "La Salle des Machines\nFriche la Belle de Mai 41 rue Jobin\n13003 MARSEILLE"},
+                { "city": "Perpignan\n", "detail": "FILAF\n4 bis place Grétry\n66000 Perpignan"},
+                { "city": "Nantes\n", "detail": "Vent d'Ouest au Lieu Unique\n2, rue de la biscuiterie\n44 000 Nantes"},
                 { "city": "Paris\n", "detail": "Librairie Yvon Lambert\n108, rue vieille du temple\n75003 Paris"},
                 { "city": "Paris\n", "detail": "ArchiLib\n49, boulevard de la Villette\n75010 Paris"},
                 { "city": "Paris\n", "detail": "Librairie le Cabanon\n122 Rue de Charenton,\n75012 Paris"},
                 { "city": "Paris\n", "detail": "La Galerie d'Architecture\n11 rue des blancs manteaux\n75004 Paris"},
                 { "city": "Paris\n", "detail": "Librairie Le Moniteur\n1, place du Trocadéro\n75016 Paris"},
                 { "city": "Paris\n", "detail": "Librairie Volume\n47, rue Notre-Dame de Nazareth\n75003 Paris"},
-                { "city": "Marseille\n", "detail": "Imbernon\n280, Boulevard Michelet\n13008 Marseille"},
-                { "city": "Marseille\n", "detail": "La Salle des Machines\nFriche la Belle de Mai 41 rue Jobin\n13003 MARSEILLE"},
                 { "city": "Saint-Étienne\n", "detail": "Lune et l'autre\n19 Rue Pierre Bérard\n42000 Saint-Étienne"},
-                { "city": "Bordeaux\n", "detail": "N’a qu’1 oeil\n19 Rue Bouquière\n33000 Bordeaux"},
-                { "city": "Clermond Ferrand\n", "detail": "SCOP Les Volcans\n80, Bd François Mitterrand\n63000 Clermont Ferrand"},
-                { "city": "Lyon\n", "detail": "Archipel\n21 place des Terreaux\n69001 Lyon"},
-                { "city": "Nantes\n", "detail": "Vent d'Ouest au Lieu Unique\n2, rue de la biscuiterie\n44 000 Nantes"},
-                { "city": "Perpignan\n", "detail": "FILAF\n4 bis place Grétry\n66000 Perpignan"},
                 { "city": "Strasbourg\n", "detail": "Quai des Brumes\n120, Grand'Rue\n67000 Strasbourg"}
             ]
         },
@@ -62,33 +62,43 @@
                 "nombre d’exemplaires: 110",
                 "prix de vente: épuisé",
                 "papiers: Spendorlux 80g et\n Arcoprint milk 70g et 250g de Fedrigoni",
-                "pages intérieures: impression numérique noir & blanc",
+                "pages intérieures: impression numérique\nnoir & blanc",
                 "couverture: sérigraphie",
                 "langue: français"
             ],
-            "price": "7 euros",     
+            "shopDetails": [
+                { "title": "format : ", "value": "190x255 mm"},
+                { "title": "nombre de pages : ", "value": "48 pages"},
+                { "title": "nombre d’exemplaires : ", "value": "110"},
+                { "title": "prix de vente : ", "value": "7euros"},
+                { "title": "papiers : ", "value": "Spendorlux 80g et\n Arcoprint milk 70g et 250g de Fedrigoni"},
+                { "title": "pages intérieures : ", "value": "impression numérique noir & blanc"},
+                { "title": "couverture : ", "value": "sérigraphie"},
+                { "title": "langue : ", "value": "français"}
+             ],
+            "price": "épuisé",
             "summary": [
-                "récit\nNUNES, Antoine-Frédéric\nL'architecture fiction Sur le projet du pont de Zaehringen, Vincent Mangeat,\nFribourg",
-                "récit\nBARNAY, Oscar Les traces\nSur le projet de la Faculdade de Arquitectura, Alvaro Siza,\nPorto",
-                "récit\nGAUDRIOT, Hubert\nLa chapelle rejoint les châteaux et l'usine les palaisSur les projets de chapelle de Mario Botta et d’usine de Livio Vacchini,\nTessin, Suisse",
-                "récit\nANTIN, Nina\nLe ballet urbain de la briqueterieSur le projet de la Briqueterie de Philippe Prost,\nParis",
-                "photographie\nMOREAU, Suzanne\nPerazica Do Monténégro",
-                "table ronde\nGRAIL, Hugo\nSchizophrénie\nTable ronde autour de 4 livres",
-                "entretien\nCHEVASSUS, Hugo\nCombat\nEntretien avec Pierre CHABARD, rédacteur en chef de la revue Criticat"
+                "récit\nNUNES, Antoine-Frédéric\n<b>L'architecture fiction</b>\nSur le projet du pont de Zaehringen, Vincent Mangeat,\nFribourg",
+                "récit\nBARNAY, Oscar\n<b>Les traces</b>\nSur le projet de la Faculdade de Arquitectura, Alvaro Siza,\nPorto",
+                "récit\nGAUDRIOT, Hubert\n<b>La chapelle rejoint les châteaux et l'usine les palais</b>\nSur les projets de chapelle de Mario Botta et d’usine de Livio Vacchini,\nTessin, Suisse",
+                "récit\nANTIN, Nina\n<b>Le ballet urbain de la briqueterie</b>\nSur le projet de la Briqueterie de Philippe Prost,\nParis",
+                "photographie\nMOREAU, Suzanne\n<b>Perazica Do Monténégro</b>",
+                "table ronde\nGRAIL, Hugo\n<b>Schizophrénie</b>\nTable ronde autour de 4 livres",
+                "entretien\nCHEVASSUS, Hugo\n<b>Combat, pour une revue d'architecture</b>\nEntretien avec Pierre CHABARD, rédacteur en chef de la revue Criticat"
             ],
             "bigCartel":"https://revuefig.bigcartel.com/product/fig-affiche"
         },
         "prosopopee": {
             "pageTitle": "prosopopee",
-            "issueNumber": "fig. n°1", 
+            "issueNumber": "fig. n°1",
             "number": "1",
             "definition": "La prosopopée, du grec prosôpon (le visage) et poiein (faire, fabriquer), est une figure de style par laquelle l’auteur prête la parole à un absent ou à un être inanimé. Doter l’architecture d’un langage. Coller son oreille au mur. Écouter. Tels sont les enjeux qui gravitent autour des recherches effleurées dans ce numéro",
-            "price": "7 euros",
+            "price": "épuisé",
             "presentation": "Nous croyons que l’architecture est un recueil, dans lequel chaque bâtiment est un protagoniste. Ainsi, nous conférons à l’architecte la figure d’auteur. À travers ce numéro, il fallait laisser la parole aux héros afin de doter l’architecture d’un langage puis de coller son oreille au mur, écouter",
             "details": [
                 "format : 190x255 mm",
                 "nombre de pages : 36 pages",
-                "nombre d’exemplaires : 160",                
+                "nombre d’exemplaires : 160",
                 "prix de vente : épuisé",
                 "papiers : Spendorlux 80g et\n 250g de Fedrigoni",
                 "pages intérieures : impression numérique noir & blanc",
@@ -106,15 +116,15 @@
                { "title": "langue : ", "value": "français"}
             ],
             "summary": [
-                "récit\nAmélie Tripoz\nAdieu\nSur le projet de la Philharmonie de Paris, Jean Nouvel, Paris",
-                "récit\nLauranne Fleury\nFaux jumeaux\nÀ propos de la reconversion des bâtiments industriels",
-                "récit\nNicolas Tardy\nUn grand trou n’a pas besoin d’être creusé À propos d’Archigram",
-                "récit\nMathilde Segonds\nUn cinq pièces béton, (Sans titre), La maison",
-                "photographie\nDaniel Fuchs\nDays are Pale\nMunich",
-                "position\nBenjamin Dos Santos\nMondes à la carte\nPour une cartographie",
-                "missive\nCarla Frick-Cloupet\nJ’écris ton nom\nMéthodes et permission"
+                "récit\nAmélie Tripoz\n<b>Adieu</b>\nSur le projet de la Philharmonie de Paris, Jean Nouvel, Paris",
+                "récit\nLauranne Fleury\n<b>Faux jumeaux</b>\nÀ propos de la reconversion des bâtiments industriels",
+                "récit\nNicolas Tardy\n<b>Un grand trou n’a pas besoin d’être creusé</b> À propos d’Archigram",
+                "récit\nMathilde Segonds\n<b>Un cinq pièces béton, (Sans titre)<:b>, La maison",
+                "photographie\nDaniel Fuchs\n<b>Days are Pale</b>\nMunich",
+                "position\nBenjamin Dos Santos\n<b>Mondes à la carte</b>\nPour une cartographie",
+                "missive\nCarla Frick-Cloupet\n<b>J’écris ton nom</b>\nMéthodes et permission"
             ],
-            "bigCartel":"https://revuefig.bigcartel.com/product/fig-affiche"            
+            "bigCartel":"https://revuefig.bigcartel.com/product/fig-affiche"
         },
         "hypotytose": {
             "pageTitle": "hypotytose",
@@ -133,17 +143,27 @@
                 "couverture: sérigraphie",
                 "langue: français"
             ],
+            "shopDetails": [
+                { "title": "format : ", "value": "190x255 mm"},
+                { "title": "nombre de pages : ", "value": "48 pages"},
+                { "title": "nombre d’exemplaires : ", "value": "110"},
+                { "title": "prix de vente : ", "value": "7euros"},
+                { "title": "papiers : ", "value": "Arcoprint milk 70g et\n 250 g de Fedrigoni"},
+                { "title": "pages intérieures : ", "value": "impression numérique noir & blanc"},
+                { "title": "couverture : ", "value": "sérigraphie"},
+                { "title": "langue : ", "value": "français"}
+             ],
             "summary": [
-                "dialogue\nDaria Ayvazova et Merryl Bouchereau\nDedans-Dehors\nSur la Manufacture d’armes, Saint-Étienne",
+                "dialogue\nDaria Ayvazova et Merryl Bouchereau\n<b>Dedans-Dehors</b>\nSur la Manufacture d’armes, Saint-Étienne",
                 "position\nSamuel Hackwill\nSeize Mille\nSur la Manufacture d’armes, Saint-Étienne",
-                "position\nJacob Lyon\nLimites tacites\nÀ propos de la Biennale du Design de Saint-Étienne",
-                "dessin\nBaptiste Deyrail\nEnvers\n À propos de la Biennale du Design de Saint-Étienne",
-                "photographie\nAlexandra Caunes\nTravaux en cours\nÀ propos de la Biennale du Design de Saint-Étienne",
-                "récit\nNicolas Goubier\nCorps-Ville\nÀ propos de la course en ville",
-                "récit\nLéa Jeanjacques\nPaysage éprouvé\nMalin Head, Donegal, Irlande",
-                "récit\nOscar Barnay\nSur la route\nÀ propos de l’aire d’autoroute"
+                "position\nJacob Lyon\n<b>Limites tacites</b>\nÀ propos de la Biennale du Design de Saint-Étienne",
+                "dessin\nBaptiste Deyrail\n<b>Envers</b>\n À propos de la Biennale du Design de Saint-Étienne",
+                "photographie\nAlexandra Caunes\n<b>Travaux en cours</b>\nÀ propos de la Biennale du Design de Saint-Étienne",
+                "récit\nNicolas Goubier\n<b>Corps-Ville</b>\nÀ propos de la course en ville",
+                "récit\nLéa Jeanjacques\n<b>Paysage éprouvé</b>\nMalin Head, Donegal, Irlande",
+                "récit\nOscar Barnay\n<b>Sur la route</b>\nÀ propos de l’aire d’autoroute"
             ],
-            "bigCartel":"https://revuefig.bigcartel.com/product/fig-affiche"                        
+            "bigCartel":"https://revuefig.bigcartel.com/product/fig-affiche"
         },
         "paradoxe": {
             "pageTitle": "paradoxe",
@@ -162,19 +182,40 @@
                 "imprimeur : Art et caractère",
                 "langue: français"
             ],
+            "shopDetails": [
+                { "title": "format : ", "value": "190x255 mm"},
+                { "title": "nombre de pages : ", "value": "48 pages"},
+                { "title": "nombre d’exemplaires : ", "value": "500"},
+                { "title": "prix de vente : ", "value": "16euros"},
+                { "title": "papiers : ", "value": "Arcoprint milk 70 g et\n Sirio ultra black 115 g et 250 g de Fedrigoni"},
+                { "title": "pages intérieures : ", "value": "impression numérique noir & blanc"},
+                { "title": "imprimeur : ", "value": "Art et caractère"},
+                { "title": "langue : ", "value": "français"}
+             ],
             "summary": [
-                "récit\nHugo Grail\nUne amicale laïque?\nAmicale laïque Chapelon. Clément Vergely. Saint- Étienne",
-                "récit\nCarla Frick-Cloupet\nC’était un rendez-vous\nComplexe sportif. Bruther. Paris",
-                "espace public\nRuedi Baur\nLes paradoxes de l’inscription partagée Sur Intégral Ruedi Baur. Paris",
-                "récit\nANTIN, Nina\nLe ballet urbain de la briqueterieSur le projet de la Briqueterie de Philippe Prost,\nParis",
-                "ville\nBarbara Szaniecki\nCapitalisme créatif \nRio De Janeiro. Brésil\n",
-                "ville\nLouis Dunbar\nTbilissi porte tous les visages. \nTbilissi. Géorgie\n",
-                "photographie\nSandirne Binoux\nPaysages paradoxaux\n",
-                "pamphlet\nAmélie Tripoz\nAbécédaire du starchitecte\n",
-                "bande dessinée\nMartin Guillaumie\nLes toilettes de Plochingen Plonchingen. Allemagne\n",
-                "jeu vidéo\nBenjamin Dos Santos\nMachine qui rêve\n"
+                "récit\nHugo Grail\n<b>Une amicale laïque?</b>\nAmicale laïque Chapelon. Clément Vergely. Saint- Étienne",
+                "récit\nCarla Frick-Cloupet\n<b>C’était un rendez-vous</b>\nComplexe sportif. Bruther. Paris",
+                "espace public\nRuedi Baur\n<b>Les paradoxes de l’inscription partagée/b>\nSur Intégral Ruedi Baur. Paris",
+                "récit\nANTIN, Nina\n<b>Le ballet urbain de la briqueterie</b>\nSur le projet de la Briqueterie de Philippe Prost,\nParis",
+                "ville\nBarbara Szaniecki\n<b>Capitalisme créatif</b>\nRio De Janeiro. Brésil\n",
+                "ville\nLouis Dunbar\n<b>Tbilissi porte tous les visages.</b>\nTbilissi. Géorgie\n",
+                "photographie\nSandirne Binoux\n<b>Paysages paradoxaux</b>\n",
+                "pamphlet\nAmélie Tripoz\n<b>Abécédaire</b> du starchitecte\n",
+                "bande dessinée\nMartin Guillaumie\n<b>Les toilettes de Plochingen</b>\nPlonchingen. Allemagne\n",
+                "jeu vidéo\n<b>Benjamin Dos Santos</b>\nMachine qui rêve\nSur la réalité (virtuelle)",
+                "position\nMathilde Segonds\n<b>Dans l'espace inutile</b>\nSur l'espace sans fonction",
+                "position\nLa Générale Nord-Est\n<b>Le grand-père chinois remis en liberté</b>\nCollectif d'artistes",
+                "position\nNina Antin\n<b>Pourquoi réinventer Paris</b>\nRue du Faubourg du Temple. Paris",
+                "position\nAntoine-Frédéric Nunes\n<b>L'architecteest mort... Vive l'architecte</b>\nSur le métier d'architecte",
+                "portrait\nHugo Chevassus\n<b>Combat, pour une agence d'architecture</b>\nSur Est-ce ainsi. Xavier Wrona. Paris",
+                "cinéma\nCarlos Solano\n<b>Navigateur pour l'éternité</b>\nL'arche Russe, Alexandre Soukourov",
+                "documentaire\nDiane Lantin\n<b>Il faudra faire le tou</b>\nFrontière entre la Turquie et l'Arménie",
+                "son\nPierre Bujeau\n<b>Crise du son moderne</b>\nSur la résonance",
+                "poésie\nChantal Neuveu\n<b>P-04674</b>\nQuébec. Canada",
+                "poésie\n<b>Esther Salmona</b>\nmuE\nMUCEM. Marseille",
+                "diplôme\nLaurence Neron\n<b>du dougoung à la gare</b>\nENSA Marne-La-Vallée"
             ],
-            "bigCartel":"https://revuefig.bigcartel.com/product/fig-n3-paradoxe"             
+            "bigCartel":"https://revuefig.bigcartel.com/product/fig-n3-paradoxe"
         },
         "pleonasme": {
             "pageTitle": "pléonasme",
@@ -186,32 +227,42 @@
             "details": [
                 "format: 190x255 mm",
                 "nombre de pages: 156 pages",
-                "nombre d’exemplaires : 500",                
+                "nombre d’exemplaires : 500",
                 "prix de vente: 16euros",
                 "papiers : Savile Row Tweed Extra White\nBlanc 300 et Coral Book White 80g",
                 "pages intérieures: impression numérique HP indigo noir & blanc",
-                "imprimeur : Frazier, Paris",                
+                "imprimeur : Frazier, Paris",
                 "langue: français"
             ],
+            "shopDetails": [
+                { "title": "format : ", "value": "190x255 mm"},
+                { "title": "nombre de pages : ", "value": "156 pages"},
+                { "title": "nombre d’exemplaires : ", "value": "500"},
+                { "title": "prix de vente : ", "value": "16euros"},
+                { "title": "papiers : ", "value": "Savile Row Tweed Extra White\nBlanc 300 et Coral Book White 80g"},
+                { "title": "pages intérieures : ", "value": "impression numérique HP indigo noir & blanc"},
+                { "title": "imprimeur : ", "value": "Frazier, Paris"},
+                { "title": "langue : ", "value": "français"}
+             ],
             "summary": [
-                "Position\nKader Mokadem\nPléonasme\nIndex de rhétorique",
-                "Récit\nLyna Bourouiba\nQuand l’architecture reproduit\nSur le thème en architecture.\n",
-                "Récit\nHugo Grail\nQuand l’architecture bégaie\nTianjin. Chine\n",
-                "Photographie\nThomas Destaing\nHabitat\nSur l’habitat précaire\n",
-                "Fiction\nLambert Moiroux et Quentin Laurens-Berge\nWe Are an Event\nSaint-Etienne. France\n",
-                "Ville\nBernardo Robles Hidalgo et Koen Berghmans\nL’entretien e(s)t l’architecture\nBiennale 2017. Saint-Etienne.\n",
-                "Affichage urbain\nTania Mouraud\n[pleônasm]\n",
-                "Récit\nCharlie Duperron\nRésidents en transits\nA propos de l’accueil de migrants au Château de la Durie\nSaint-Denis-de-Cabanne. France.\n",
-                "Position\nHubert gaudriot\nCe que nous devons\nPour une anticipation du changement\n",
-                "Illustration\nMacula Nigra\nArchigraphie\nRennes. France\n",
-                "Centon\nSégolène Moteley\nRetour sur terre.\nSur un voyage intergalactique.\n",
-                "Bande dessinée\nAmélie Trioz ET Hubert Lafore\nAdversaire invincible\nSur la désorganisation.\n",
-                "Cinéma\nDélivrance\nMatthieu Samadet\nJohn Boorman. 1972\n",
-                "Cinéma\nTill Lepêtre\nLumière-Décor\n",
-                "Bande dessinée\nJean Claude Paillasson\nKrazy kit\n",
-                "Diplôme Dihiya Aït Aoudia et Lucie Rossignol\nAlger retrouvée\nENSA Versailles\n"
+                "Position\nKader Mokadem\n<b>Pléonasme/b>\nIndex de rhétorique",
+                "Récit\nLyna Bourouiba\n<b>Quand l’architecture reproduit</b>\nSur le thème en architecture.\n",
+                "Récit\nHugo Grail\n<b>Quand l’architecture bégaie</b>\nTianjin. Chine\n",
+                "Photographie\nThomas Destaing\n<b>Habitat<b>\nSur l’habitat précaire\n",
+                "Fiction\nLambert Moiroux et Quentin Laurens-Berge\n<b>We Are an Event</b>\nSaint-Etienne. France\n",
+                "Ville\nBernardo Robles Hidalgo et Koen Berghmans\n<b>L’entretien e(s)t l’architecture\nBiennale 2017. Saint-Etienne.</b>\n",
+                "Affichage urbain\nTania Mouraud\n<b>[pleônasm]</b>\n",
+                "Récit\nCharlie Duperron\nRésidents en transits\n<b>A propos de l’accueil de migrants au Château de la Durie</b>\nSaint-Denis-de-Cabanne. France.\n",
+                "Position\nHubert gaudriot\n<b>Ce que nous devons</b>\nPour une anticipation du changement\n",
+                "Illustration\nMacula Nigra\n<b>Archigraphie</b>\nRennes. France\n",
+                "Centon\nSégolène Moteley\n<b>Retour sur terre.</b>\nSur un voyage intergalactique.\n",
+                "Bande dessinée\nAmélie Trioz ET Hubert Lafore\n<b>Adversaire invincible</b>\nSur la désorganisation.\n",
+                "Cinéma\n<b>Délivrance</b>\nMatthieu Samadet\nJohn Boorman. 1972\n",
+                "Cinéma\nTill Lepêtre\n<b>Lumière-Décor</b>\n",
+                "Bande dessinée\nJean Claude Paillasson\n<b>Krazy kit</b>\n",
+                "Diplôme Dihiya Aït Aoudia et Lucie Rossignol\n<b>Alger retrouvée<b>\nENSA Versailles\n"
             ],
             "bigCartel": "https://revuefig.bigcartel.com/product/fig-n4-pleonasme"
         }
-    }  
+    } 
 }

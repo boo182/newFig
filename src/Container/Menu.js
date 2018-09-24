@@ -32,6 +32,7 @@ export default class Menu extends Component {
     }
 
     componentWillReceiveProps (nextProps) {
+        this.setState({ showList: false });
         if (nextProps.actualPage === 'issues' || nextProps.actualPage === 'collection') {
             this.setState({ displayOrderDiv: true });
         }
