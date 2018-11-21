@@ -31,7 +31,7 @@ export default class ShopIssueDetails extends Component {
               <div>
                 {datas.shopDetails.map(item =>
                   <div key={item} className="detailDiv">
-                    {item.title}<span style={{ fontSize: '16px'}}>{item.value}</span>
+                    {item.title}<span style={{ fontSize: '16px'}} dangerouslySetInnerHTML={{__html: item.value}}></span>
                   </div>)}
               </div>
             </Fragment>

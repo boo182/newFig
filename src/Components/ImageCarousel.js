@@ -4,6 +4,7 @@ import * as images  from '../assets/images/images';
 import Slider from "react-slick";
 import IssueDetails from './IssueDetails';
 import { NavLink } from 'react-router-dom';
+import Cursor from '../assets/right-arrow.cur'
 
 
 export default class ImageCarousel extends Component {
@@ -70,7 +71,7 @@ export default class ImageCarousel extends Component {
       
     return (
         <div className="CarouselWrapper">
-            <Slider {...settings} className="slider" afterChange={e => this.afterChange(e)}>
+            <Slider {...settings} className="slider" afterChange={e => this.afterChange(e)} style={{ height: '800px' }}>
                 {images.map((item, index) => {
                     if(typeof item === 'object') {
                         return <div className="details" key={`${index}`}>{item}</div>

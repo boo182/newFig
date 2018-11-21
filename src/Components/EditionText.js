@@ -13,7 +13,7 @@ export default () => (
     <div>
       <div className="editionTitle">{data.pages.edition.titleRight}</div>
       <div className="editionCorpus">
-            <div>{data.pages.edition.contentRight}</div>
+            <div dangerouslySetInnerHTML={{__html: data.pages.edition.contentRight}}></div>
           </div>
     </div>
   </div>

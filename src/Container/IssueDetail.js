@@ -21,7 +21,7 @@ export default class IssueDetail extends Component {
                 <PageTitle title={'boutique'} />
             </div>
             <ShopIssueDetails issue={this.state.issueToDisplay} />
-    </div>
+        </div>
     )
   }
 }

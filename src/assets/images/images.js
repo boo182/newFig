@@ -29,7 +29,6 @@ import pleonasme3 from './pleonasme/PLEONASME-4-.jpg';
 import pleonasme4 from './pleonasme/PLEONASME-5-.jpg';
 import pleonasme5 from './pleonasme/PLEONASME-6-.jpg';
 
-
 // Shop
 import shop0 from './shopPictures/NUM2RO-0.jpg';
 import shop1 from './shopPictures/NUM2RO-1.jpg';
@@ -62,7 +61,6 @@ import P1110387 from './homePage/P1110387.jpg';
 import P1110414 from './homePage/P1110414.jpg';
 import PARADOXE from './homePage/paradoxe.jpg';
 import PROSOPOPEE from './homePage/PROSOPOPEE.jpg';
-
 
 export const analepse = [
   analepse0,
@@ -148,5 +146,4 @@ export const shopImages = [
   { img: shop2, name: 'hypotytose' },
   { img: shop1, name: 'prosopopee' },
   { img: shop0, name: 'analepse' },
-
 ];

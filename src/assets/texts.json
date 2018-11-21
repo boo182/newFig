@@ -25,7 +25,7 @@
             "titleLeft": "la revue",
             "titleRight": "éditer",
             "contentLeft": "La revue fig. est une revue d’architecture qui ne parle pas seulement d’architecture.\nC’est un support imprimé qui permet d’expérimenter et d’interroger l’espace, la ville, le paysage, le chantier et l’habiter. Son but est de livrer une critique architecturale innovante, plurielle, graphique et grammaticale, réunissant des positionnements artistiques, littéraires et philosophiques. fig., c’est une figure de style par numéro : l’architecture, au sens figuré, est celle qui interpelle l’imaginaire et transmet une émotion, une sensation, ou une idée.\nQuelles sont alors les figures de style de l’architecture ?\n\nFondée en 2015 en tant qu’outil de résistance politique, social et poétique, par une graphiste et un architecte, la revue emprunte le chemin perpendiculaire de l’édition indépendante, désireuse d’avancer sans partenaire idéologique. \n",
-            "contentRight": "La revue est portée par le collectif fig., ensemble amateur regroupant des architectes, artistes, écrivains et graphistes.Le collectif n’est pas figé, et se structure à partir de l’implication mouvante et bénévole de ses membres Il fait le choix d’éditer seul la revue, c’est à dire d’en assurer la reproduction, la publication et la diffusion. Cela étant dit, le collectif s’empare de la diffusion à son sens le plus large. Il nous importe d’investir l’espace papier et de retranscrire celui-ci à l’espace physique. Un numéro de fig. s’accompagne d’une ou plusieurs expositions où le contenu prend une forme nouvelle, grâce à la participation des auteurs pour proposer une oeuvre en lien avec leur publication. Ce temps de déambulation est propice à une lecture élargie des articles du numéro.\n\nÉditer est une affaire collective. C’est pourquoi nous sommes entourés de partenaires moraux précieux :\n-Les contributeurs\n-Les libraires\n-L’ENSASE (https://www.st-etienne.archi.fr/) \n-L’ESADSE (http://www.esadse.fr/fr/home/)\n-Longtype (https://www.long-type.com/), fonderie parisienne à l’origine de la fonte Ecam) \n-La Générale Nord Est (https://www.lagenerale.fr/)\n-La revue Sur-Mesure (http://www.revuesurmesure.fr)\n"
+            "contentRight": "La revue est portée par le collectif fig., ensemble amateur regroupant des architectes, artistes, écrivains et graphistes.Le collectif n’est pas figé, et se structure à partir de l’implication mouvante et bénévole de ses membres Il fait le choix d’éditer seul la revue, c’est à dire d’en assurer la reproduction, la publication et la diffusion. Cela étant dit, le collectif s’empare de la diffusion à son sens le plus large. Il nous importe d’investir l’espace papier et de retranscrire celui-ci à l’espace physique. Un numéro de fig. s’accompagne d’une ou plusieurs expositions où le contenu prend une forme nouvelle, grâce à la participation des auteurs pour proposer une oeuvre en lien avec leur publication. Ce temps de déambulation est propice à une lecture élargie des articles du numéro.\n\nÉditer est une affaire collective. C’est pourquoi nous sommes entourés de partenaires moraux précieux :\n-Les contributeurs\n-Les libraires\n<a href='https://www.st-etienne.archi.fr/'>-L’ENSASE (https://www.st-etienne.archi.fr/)</a> \n<a href='http://www.esadse.fr/fr/home/'>-L’ESADSE (http://www.esadse.fr/fr/home/)</a>\n<a href='https://www.long-type.com/'>-Longtype (https://www.long-type.com/), fonderie parisienne à l’origine de la fonte Ecam)</a>\n<a href='https://www.lagenerale.fr/'>-La Générale Nord Est (https://www.lagenerale.fr/)</a>\n<a href='http://www.revuesurmesure.fr'>-La revue Sur-Mesure (http://www.revuesurmesure.fr)</a>\n"
         },
         "boutique": {
             "pageTitle": "boutique"
@@ -144,14 +144,14 @@
                 "langue: français"
             ],
             "shopDetails": [
-                { "title": "format : ", "value": "190x255 mm"},
-                { "title": "nombre de pages : ", "value": "48 pages"},
-                { "title": "nombre d’exemplaires : ", "value": "110"},
-                { "title": "prix de vente : ", "value": "7euros"},
-                { "title": "papiers : ", "value": "Arcoprint milk 70g et\n 250 g de Fedrigoni"},
-                { "title": "pages intérieures : ", "value": "impression numérique noir & blanc"},
-                { "title": "couverture : ", "value": "sérigraphie"},
-                { "title": "langue : ", "value": "français"}
+                { "title": "format:\t", "value": "190x655 mm"},
+                { "title": "nombre de pages:\t", "value": "48 pages"},
+                { "title": "nombre d’exemplaires:\t", "value": "110"},
+                { "title": "prix de vente:\t", "value": "7euros"},
+                { "title": "papiers:\t", "value": "Arcoprint milk 70g et\n 250 g de Fedrigoni"},
+                { "title": "pages intérieures:\t", "value": "impression numérique noir & blanc"},
+                { "title": "couverture:\t", "value": "sérigraphie"},
+                { "title": "langue:\t", "value": "français"}
              ],
             "summary": [
                 "dialogue\nDaria Ayvazova et Merryl Bouchereau\n<b>Dedans-Dehors</b>\nSur la Manufacture d’armes, Saint-Étienne",
@@ -183,14 +183,14 @@
                 "langue: français"
             ],
             "shopDetails": [
-                { "title": "format : ", "value": "190x255 mm"},
-                { "title": "nombre de pages : ", "value": "48 pages"},
-                { "title": "nombre d’exemplaires : ", "value": "500"},
-                { "title": "prix de vente : ", "value": "16euros"},
-                { "title": "papiers : ", "value": "Arcoprint milk 70 g et\n Sirio ultra black 115 g et 250 g de Fedrigoni"},
-                { "title": "pages intérieures : ", "value": "impression numérique noir & blanc"},
-                { "title": "imprimeur : ", "value": "Art et caractère"},
-                { "title": "langue : ", "value": "français"}
+                { "title": "format: ", "value": "190x255 mm"},
+                { "title": "nombre de pages: ", "value": "48 pages"},
+                { "title": "nombre d’exemplaires: ", "value": "500"},
+                { "title": "prix de vente: ", "value": "16euros"},
+                { "title": "papiers: ", "value": "Arcoprint milk 70 g et\n Sirio ultra black 115 g et 250 g de Fedrigoni"},
+                { "title": "pages intérieures: ", "value": "impression numérique noir & blanc"},
+                { "title": "imprimeur: ", "value": "Art et caractère"},
+                { "title": "langue: ", "value": "français"}
              ],
             "summary": [
                 "récit\nHugo Grail\n<b>Une amicale laïque?</b>\nAmicale laïque Chapelon. Clément Vergely. Saint- Étienne",
@@ -245,7 +245,7 @@
                 { "title": "langue : ", "value": "français"}
              ],
             "summary": [
-                "Position\nKader Mokadem\n<b>Pléonasme/b>\nIndex de rhétorique",
+                "Position\nKader Mokadem\n<b>Pléonasme</b>\nIndex de rhétorique",
                 "Récit\nLyna Bourouiba\n<b>Quand l’architecture reproduit</b>\nSur le thème en architecture.\n",
                 "Récit\nHugo Grail\n<b>Quand l’architecture bégaie</b>\nTianjin. Chine\n",
                 "Photographie\nThomas Destaing\n<b>Habitat<b>\nSur l’habitat précaire\n",
