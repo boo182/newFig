@@ -80,7 +80,7 @@ export default class ImageCarousel extends Component {
           style={{ backgroundColor: 'transparent', cursor: this.state.x > 2970 ? 'w-resize' : 'e-resize'}}
           onMouseMove={this._onMouseMove}
         >
-            <div className="pageIndex">{this.state.pageNumber}/{images.length}</div>
+            <div className="pageIndex">{`< ${this.state.pageNumber}/${images.length} >`}</div>
             <Slider {...settings} className="slider" afterChange={e => this.afterChange(e)} style={{ height: '800px' }}>
                 {images.map((item, index) => {
                     if(typeof item === 'object') {
