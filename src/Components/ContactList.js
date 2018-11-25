@@ -1,6 +1,8 @@
 import React from 'react';
 import './styles/contactList.css';
 import data from '../assets/texts';
+import { NavLink } from 'react-router-dom';
+
 
 export default () => {
   const {contact: {city, joinUs, fanny, hugo, followUs, facebook, email }} = data;
@@ -14,9 +16,11 @@ export default () => {
         <div>{hugo.name}</div>
         <div>{hugo.phone}</div>          
       </div>
-      <p className="bolderFont">{email}</p>
+      <p className="bolderFont"><a href={`mailto:${email}`}>{email}</a></p>
       <div>{followUs}</div>
-      <div className="bolderFont">{facebook}</div>     
+        <div className="bolderFont">
+          <a href={'https://www.facebook.com/revue.fig/?ref=br_rs'}>{facebook}</a>
+        </div>  
     </div>
   )
 }

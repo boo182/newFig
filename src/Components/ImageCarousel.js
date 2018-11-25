@@ -4,14 +4,19 @@ import * as images  from '../assets/images/images';
 import Slider from "react-slick";
 import IssueDetails from './IssueDetails';
 import { NavLink } from 'react-router-dom';
-import Cursor from '../assets/right-arrow.cur'
 
 
 export default class ImageCarousel extends Component {
     state = {
         displayDetails: false,
         issue: 0,
+        pageNumber: 1,
+        x: 0,
+        y: 0,
     }
+      _onMouseMove = (e) => {
+        this.setState({ x: e.screenX, y: e.screenY });
+      }
 
     getIssues = () => {
         const analepse = images.analepse;
@@ -34,6 +39,7 @@ export default class ImageCarousel extends Component {
         ];
     }
     afterChange = e => {
+        this.setState({ pageNumber: e + 1 })
         const { setTitle } = this.props;
         const hypotytose = images.hypotytose.length + 1;
         const prosopopee = images.prosopopee.length + 1;
@@ -57,7 +63,7 @@ export default class ImageCarousel extends Component {
         const paradoxe = { img: images.paradoxe[0], name: 'paradoxe', number: 4 };
         return [analepse, prosopopee, hypotytose, paradoxe, pleonasme];
     }
-
+    generatePageNumber = (index) => index;
   render() {
       const images = this.getIssues();
       const smallScreenImages = this.smallScreenDisplayer();
@@ -68,9 +74,13 @@ export default class ImageCarousel extends Component {
         slidesToShow: 1,
         slidesToScroll: 1,
       };
-      
+
     return (
-        <div className="CarouselWrapper">
+        <div className="CarouselWrapper"
+          style={{ backgroundColor: 'transparent', cursor: this.state.x > 2970 ? 'w-resize' : 'e-resize'}}
+          onMouseMove={this._onMouseMove}
+        >
+            <div className="pageIndex">{this.state.pageNumber}/{images.length}</div>
             <Slider {...settings} className="slider" afterChange={e => this.afterChange(e)} style={{ height: '800px' }}>
                 {images.map((item, index) => {
                     if(typeof item === 'object') {

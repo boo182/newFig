@@ -8,8 +8,8 @@ export default class Home extends Component {
   }
   render() {
     return (
-      <div>
-        <ImagesScroll pictures={'home'} />
+      <div >
+        <ImagesScroll pictures={'home'} style={{ overflow: 'hidden' }}/>
       </div>
     )
   }

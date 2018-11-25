@@ -11,9 +11,12 @@ div {
     width: 100vw;
     z-index: 1000;
     position: fixed;
-    top: 10vh;
+    top: 8vh;
     overflow: scroll;
-    cursor: url('../../assets/right.png');	 
+}
+.pageIndex {
+  font-size: 23px;
+  margin-left: 22.5vw;
 }
 .details {
     margin: none;
@@ -43,9 +46,13 @@ div {
     .slider {
       display: none;
     }
+    .pageIndex {
+      display: none;
+    }
     .CarouselWrapper {
       overflow-y: scroll;
       margin-top: 17vw;
+      cursor: auto;
     }
     .verticalScroll {
       margin-top: 17vh;
