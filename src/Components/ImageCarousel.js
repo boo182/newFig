@@ -45,14 +45,12 @@ export default class ImageCarousel extends Component {
         const prosopopee = images.prosopopee.length + 1;
         const paradoxe = images.paradoxe.length + 1;
         const pleonasme = images.pleonasme.length + 1;
-        
+
         if(e < pleonasme && e >= 0) setTitle('pleonasme');
         if(e >= pleonasme) setTitle('paradoxe');
         if(e >= (pleonasme + paradoxe)) setTitle('hypotytose');
         if(e >= (pleonasme + paradoxe + hypotytose)) setTitle('prosopopee');
         if(e >= (pleonasme + paradoxe + hypotytose + prosopopee)) setTitle('analepse');
-        
-        
     }
 
     smallScreenDisplayer = () => {
@@ -77,11 +75,17 @@ export default class ImageCarousel extends Component {
 
     return (
         <div className="CarouselWrapper"
-          style={{ backgroundColor: 'transparent', cursor: this.state.x > 2970 ? 'w-resize' : 'e-resize'}}
+          style={{ backgroundColor: 'transparent' }}
           onMouseMove={this._onMouseMove}
         >
-            <div className="pageIndex">{`< ${this.state.pageNumber}/${images.length} >`}</div>
-            <Slider {...settings} className="slider" afterChange={e => this.afterChange(e)} style={{ height: '800px' }}>
+            
+
+            <Slider {...settings}
+              ref={slider => (this.slider = slider)}
+              className="slider"
+              afterChange={e => this.afterChange(e)}
+              style={{ height: '800px' }}
+            >
                 {images.map((item, index) => {
                     if(typeof item === 'object') {
                         return <div className="details" key={`${index}`}>{item}</div>
@@ -93,7 +97,21 @@ export default class ImageCarousel extends Component {
                   }
                 )}
             </Slider>
-            
+            <div className="pageIndex">
+                <div
+                  style={{ marginRight: 3, cursor: 'pointer' }}
+                  onClick={() => this.slider.slickPrev()}
+                >
+                  {'<'}
+                </div>
+                {`${this.state.pageNumber}/${images.length}`}
+                <div
+                  style={{ marginLeft: 3, cursor: 'pointer' }}
+                  onClick={() => this.slider.slickNext()}
+                >
+                  {'>'}
+                </div>
+            </div>
             <div className="verticalScroll">
                 {smallScreenImages.map((item, index) => {
                     return (

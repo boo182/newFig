@@ -17,6 +17,7 @@ div {
 .pageIndex {
   font-size: 23px;
   margin-left: 22.5vw;
+  display: flex;
 }
 .details {
     margin: none;
@@ -30,7 +31,6 @@ div {
     display: block;
     margin: auto;
     width: 55%;
-    
 }
 .slick-slide img.slick-loading {
     border: none;
